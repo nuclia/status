@@ -7,7 +7,7 @@ This repository allows to broadcast important warning message to all dashboard u
 
 ## Usage
 
-- Edit (`status.json`)[https://github.com/nuclia/status/edit/main/status.json]
+- Edit [`status.json`](https://github.com/nuclia/status/edit/main/status.json)
 - Increment the index (the last message index is stored in the dashboard, so once displayed, it does not appear again unless the index is higher)
 - Put the relevant message
 - Set `active` to `true`
