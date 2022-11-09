@@ -1,8 +1,6 @@
 {
   "add-entity-group": false,
-  "upload-files": true,
   "demo-kb-id": "",
-  "view-resources": true,
   "manage-api-keys": true,
   "resource-labels-edit": false,
   "manage-widgets": true,
@@ -11,7 +9,6 @@
   "manage-ontologies": true,
   "manage-entities": true,
   "upload-folder": true,
-  "upload-link": true,
   "view-activity": false,
   "manage-users": true,
   "kb-anonymization": true,
