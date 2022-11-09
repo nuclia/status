@@ -1,10 +1,12 @@
 # Status
 
-Provide Nuclia current status
+Provide Nuclia current status + feature flagging
 
 ## Purpose
 
 This repository allows to broadcast important warning and/or info messages to all dashboard users. Messages are shown at loading time, and only once.
+
+It also stores the list of features when want to hide/show on prod.
 
 ## Usage
 
@@ -27,4 +29,10 @@ When the problem is gone, edit again `status.json` and set `active` to `false`, 
 - Increment the index
 - Put the relevant message (possibly in HTML)
 - Set `active` to `true`
+- Commit the file
+
+### Feature flagging
+
+- Edit [`features.json`](https://github.com/nuclia/status/edit/main/features.json)
+- Set the features you want, value can be `true`, `false`, or a string
 - Commit the file
