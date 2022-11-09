@@ -1,0 +1,14 @@
+{
+		"upload-files": true,
+		"view-resources": true,
+		"manage-ontologies": true,
+		"manage-widgets": true,
+		"manage-api-keys": true,
+		"manage-users": true,
+		"kb-anonymization": true,
+		"upload-folder": true,
+		"upload-link": true,
+		"manage-entities": true,
+		"training": true,
+		"download-desktop-app": true
+}
