@@ -1,5 +1,5 @@
 {
-  "add-entity-group": false,
+  "add-entity-group": true,
   "demo-kb-id": "",
   "manage-api-keys": true,
   "resource-labels-edit": false,
@@ -8,7 +8,6 @@
   "billing": false,
   "manage-ontologies": true,
   "manage-entities": true,
-  "add-entity-group": true,
   "upload-folder": true,
   "view-activity": false,
   "manage-users": true,
