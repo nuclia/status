@@ -8,6 +8,7 @@
   "billing": false,
   "manage-ontologies": true,
   "manage-entities": true,
+  "add-entity-group": true,
   "upload-folder": true,
   "view-activity": false,
   "manage-users": true,
