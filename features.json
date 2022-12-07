@@ -15,5 +15,6 @@
   "view-nua-activity": false,
   "onboarding-v2": false,
   "training": true,
+  "training_ner": true,
   "download-desktop-app": true
 }
