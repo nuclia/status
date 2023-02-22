@@ -6,7 +6,10 @@ Provide Nuclia current status + feature flagging
 
 This repository allows to broadcast important warning and/or info messages to all dashboard users. Messages are shown at loading time, and only once.
 
-It also stores the list of features when want to hide/show on prod.
+Other purposes:
+
+- Feature flagging: it stores the list of features when want to hide/show on prod.
+- Desktop connectors: it stores some pluggable connectors for Desktop app.
 
 ## Usage
 
