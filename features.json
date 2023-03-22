@@ -17,5 +17,6 @@
   "onboarding-v2": false,
   "training": true,
   "training_ner": true,
+  "chat": false,
   "download-desktop-app": true
 }
