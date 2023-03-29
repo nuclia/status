@@ -1,0 +1,10 @@
+{
+    "test_feature": {
+        "rollout": 0,
+        "variants": {
+            "user_id_md5": [
+                "202cb962ac59075b964b07152d234b70"
+            ]
+        }
+    }
+}
