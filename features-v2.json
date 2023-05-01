@@ -7,7 +7,7 @@
             ]
         }
     },
-    "nucliadb_node_sync_fs": {
+    "nucliadb_seek_to_paragraph": {
         "rollout": 0,
         "variants": {
             "environment": [
