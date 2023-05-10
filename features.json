@@ -6,6 +6,7 @@
   "manage-widgets": true,
   "show-demo-kb": false,
   "billing": true,
+  "calculator": true,
   "mandatory-phone": true,
   "manage-ontologies": true,
   "manage-entities": true,
