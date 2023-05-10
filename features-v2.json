@@ -22,5 +22,13 @@
                 "none"
             ]
         }
+    },
+    "nucliadb_separate_processed_message_writes": {
+        "rollout": 0,
+        "variants": {
+            "environment": [
+                "stage"
+            ]
+        }
     }
 }
