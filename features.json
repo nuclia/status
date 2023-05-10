@@ -5,7 +5,7 @@
   "resource-labels-edit": false,
   "manage-widgets": true,
   "show-demo-kb": false,
-  "billing": false,
+  "billing": true,
   "mandatory-phone": true,
   "manage-ontologies": true,
   "manage-entities": true,
