@@ -30,5 +30,13 @@
                 "stage"
             ]
         }
+    },
+    "nucliadb_auditing_bw_compat_shard_counter": {
+        "rollout": 0,
+        "variants": {
+            "environment": [
+                "stage"
+            ]
+        }
     }
 }
