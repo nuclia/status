@@ -7,19 +7,11 @@
             ]
         }
     },
-    "nucliadb_seek_to_paragraph": {
-        "rollout": 0,
-        "variants": {
-            "environment": [
-                "none"
-            ]
-        }
-    },
     "nucliadb_wait_for_resource_index": {
         "rollout": 0,
         "variants": {
             "environment": [
-                "none"
+                "stage"
             ]
         }
     },
@@ -27,7 +19,8 @@
         "rollout": 0,
         "variants": {
             "environment": [
-                "stage"
+                "stage",
+                "production"
             ]
         }
     },
