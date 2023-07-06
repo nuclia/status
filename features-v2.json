@@ -22,5 +22,13 @@
                 "stage"
             ]
         }
+    },
+    "nuclaidb_rollover_shards": {
+        "rollout": 0,
+        "variants": {
+            "environment": [
+                "stage"
+            ]
+        }
     }
 }
