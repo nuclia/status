@@ -20,5 +20,6 @@
   "training_ner": true,
   "answers": true,
   "download-desktop-app": true,
-  "upload-q-and-a": true
+  "upload-q-and-a": true,
+  "azure_openai": true
 }
