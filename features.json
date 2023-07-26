@@ -21,5 +21,6 @@
   "answers": true,
   "download-desktop-app": true,
   "upload-q-and-a": true,
+  "view-activity": true,
   "azure_openai": true
 }
