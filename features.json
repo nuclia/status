@@ -21,5 +21,6 @@
   "download-desktop-app": true,
   "upload-q-and-a": true,
   "view-activity": true,
-  "azure_openai": true
+  "azure_openai": true,
+  "new-tiers": true
 }
