@@ -30,5 +30,19 @@
                 "stage"
             ]
         }
+    },
+    "nua_stage_disabled_generative_models": {
+        "rollout": 0,
+        "variants": {
+            "model": []
+        }
+    },
+    "nua_prod_disabled_generative_models": {
+        "rollout": 0,
+        "variants": {
+            "model": [
+                "cohere"
+            ]
+        }
     }
 }
