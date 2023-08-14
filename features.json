@@ -22,5 +22,6 @@
   "upload-q-and-a": true,
   "view-activity": true,
   "azure_openai": true,
-  "new-tiers": true
+  "new-tiers": true,
+  "suggest-entities": false
 }
