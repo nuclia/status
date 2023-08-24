@@ -44,5 +44,13 @@
                 "cohere"
             ]
         }
+    },
+    "nua_suspend_unpaid_accounts": {
+        "rollout": 0,
+        "variants": {
+            "environment": [
+                "stage"
+            ]
+        }
     }
 }
