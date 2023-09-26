@@ -8,5 +8,6 @@
   "training_ner": true,
   "download-desktop-app": true,
   "upload-q-and-a": true,
+  "user-prompts": false,
   "suggest-entities": false
 }
