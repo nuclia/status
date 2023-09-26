@@ -1,6 +1,5 @@
 {
   "billing": true,
-  "answers": true,
   "calculator": true,
   "manage-entities": true,
   "kb-anonymization": true,
