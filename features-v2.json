@@ -55,5 +55,13 @@
     },
     "nua_authorizer_scope_split_active": {
         "rollout": 0
-    }    
+    },
+    "nucliadb_export_import_tasks": {
+        "rollout": 0,
+        "variants": {
+            "environment": [
+                "stage"
+            ]
+        }
+    }
 }
