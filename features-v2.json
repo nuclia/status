@@ -61,7 +61,7 @@
         "variants": {
             "environment": [
                 "stage",
-                "prod"
+                "production"
             ]
         }
     }
