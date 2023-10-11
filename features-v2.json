@@ -56,7 +56,7 @@
     "nua_authorizer_scope_split_active": {
         "rollout": 0
     },
-    "nua_authorizer_nua_authorizer_proxy_regional_requests": {
+    "nua_authorizer_proxy_regional_requests": {
         "rollout": 100
     },
     "nucliadb_export_import_tasks": {
