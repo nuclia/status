@@ -36,10 +36,7 @@
     }
   },
   "nua_suspend_unpaid_accounts": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["stage"]
-    }
+    "rollout": 100
   },
   "nua_authorizer_scope_split_active": {
     "rollout": 0
