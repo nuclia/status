@@ -51,31 +51,31 @@
     }
   },
   "application_billing": {
-    "rollout": 1
+    "rollout": 100
   },
   "application_calculator": {
-    "rollout": 1
+    "rollout": 100
   },
   "application_manage-entities": {
-    "rollout": 1
+    "rollout": 100
   },
   "application_kb-anonymization": {
-    "rollout": 1
+    "rollout": 100
   },
   "application_view-nua-activity": {
     "rollout": 0
   },
   "application_training": {
-    "rollout": 1
+    "rollout": 100
   },
   "application_training_ner": {
-    "rollout": 1
+    "rollout": 100
   },
   "application_download-desktop-app": {
-    "rollout": 1
+    "rollout": 100
   },
   "application_upload-q-and-a": {
-    "rollout": 1
+    "rollout": 100
   },
   "application_user-prompts": {
     "rollout": 0,
@@ -88,6 +88,6 @@
     }
   },
   "application_suggest-entities": {
-    "rollout": 0
+    "rollout": 100
   }
 }
