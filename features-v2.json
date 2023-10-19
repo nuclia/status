@@ -39,10 +39,7 @@
     "rollout": 100
   },
   "nua_authorizer_scope_split_active": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["stage"]
-    }
+    "rollout": 0
   },
   "nua_authorizer_proxy_regional_requests": {
     "rollout": 100
