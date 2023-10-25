@@ -56,6 +56,9 @@
   "application_calculator": {
     "rollout": 100
   },
+  "application_knowledge-graph": {
+    "rollout": 0
+  },
   "application_manage-entities": {
     "rollout": 100
   },
