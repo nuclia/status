@@ -92,5 +92,11 @@
   },
   "application_suggest-entities": {
     "rollout": 100
+  },
+  "application_zones": {
+    "rollout": 100,
+    "variants": {
+      "blocklist": ["aws-us-east-2-1"]
+    }
   }
 }
