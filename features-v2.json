@@ -47,7 +47,7 @@
   "nucliadb_export_import_tasks": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage", "production"]
+      "environment": ["stage", "production", "prod"]
     }
   },
   "application_billing": {
