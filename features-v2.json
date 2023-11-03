@@ -1,99 +1,121 @@
 {
-  "test_feature": {
-    "rollout": 0,
-    "variants": {
-      "user_id_md5": ["202cb962ac59075b964b07152d234b70"]
+    "test_feature": {
+        "rollout": 0,
+        "variants": {
+            "user_id_md5": [
+                "202cb962ac59075b964b07152d234b70"
+            ]
+        }
+    },
+    "nucliadb_wait_for_resource_index": {
+        "rollout": 0,
+        "variants": {
+            "environment": [
+                "none"
+            ]
+        }
+    },
+    "nucliadb_default_min_score": {
+        "rollout": 0,
+        "variants": {
+            "environment": [
+                "stage"
+            ]
+        }
+    },
+    "nuclaidb_rollover_shards": {
+        "rollout": 0,
+        "variants": {
+            "environment": [
+                "stage"
+            ]
+        }
+    },
+    "nua_stage_disabled_generative_models": {
+        "rollout": 0,
+        "variants": {
+            "model": []
+        }
+    },
+    "nua_prod_disabled_generative_models": {
+        "rollout": 0,
+        "variants": {
+            "model": [
+                "cohere"
+            ]
+        }
+    },
+    "nua_suspend_unpaid_accounts": {
+        "rollout": 100
+    },
+    "nua_authorizer_scope_split_active": {
+        "rollout": 0
+    },
+    "nua_authorizer_proxy_regional_requests": {
+        "rollout": 100
+    },
+    "nucliadb_export_import_tasks": {
+        "rollout": 100
+    },
+    "nucliadb_experimental_kb": {
+        "rollout": 0,
+        "variants": {
+            "slug": [
+                "4b94b396-74d3-4cea-a97d-935303e8fbf2:experimental-tiny",
+                "4b94b396-74d3-4cea-a97d-935303e8fbf2:experimental-small",
+                "4b94b396-74d3-4cea-a97d-935303e8fbf2:experimental-medium"
+            ]
+        }
+    },
+    "application_billing": {
+        "rollout": 100
+    },
+    "application_calculator": {
+        "rollout": 100
+    },
+    "application_knowledge-graph": {
+        "rollout": 0
+    },
+    "application_manage-entities": {
+        "rollout": 100
+    },
+    "application_kb-anonymization": {
+        "rollout": 100
+    },
+    "application_view-nua-activity": {
+        "rollout": 0
+    },
+    "application_training": {
+        "rollout": 100
+    },
+    "application_training_ner": {
+        "rollout": 100
+    },
+    "application_download-desktop-app": {
+        "rollout": 100
+    },
+    "application_upload-q-and-a": {
+        "rollout": 100
+    },
+    "application_user-prompts": {
+        "rollout": 0,
+        "variants": {
+            "account_id_md5": [
+                "d90e71d72010b80cf0b5c3da39525c08",
+                "1ef5c764f15a5ad93d376e2bf2705cba",
+                "2fcdcbc99c908993cb0024ec59927dc5"
+            ]
+        }
+    },
+    "application_suggest-entities": {
+        "rollout": 100
+    },
+    "application_zones": {
+        "rollout": 100,
+        "variants": {
+            "blocklist": [
+                "aws-us-east-2-1"
+            ]
+        }
     }
-  },
-  "nucliadb_wait_for_resource_index": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["none"]
-    }
-  },
-  "nucliadb_default_min_score": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["stage"]
-    }
-  },
-  "nuclaidb_rollover_shards": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["stage"]
-    }
-  },
-  "nua_stage_disabled_generative_models": {
-    "rollout": 0,
-    "variants": {
-      "model": []
-    }
-  },
-  "nua_prod_disabled_generative_models": {
-    "rollout": 0,
-    "variants": {
-      "model": ["cohere"]
-    }
-  },
-  "nua_suspend_unpaid_accounts": {
-    "rollout": 100
-  },
-  "nua_authorizer_scope_split_active": {
-    "rollout": 0
-  },
-  "nua_authorizer_proxy_regional_requests": {
-    "rollout": 100
-  },
-  "nucliadb_export_import_tasks": {
-    "rollout": 100
-  },
-  "application_billing": {
-    "rollout": 100
-  },
-  "application_calculator": {
-    "rollout": 100
-  },
-  "application_knowledge-graph": {
-    "rollout": 0
-  },
-  "application_manage-entities": {
-    "rollout": 100
-  },
-  "application_kb-anonymization": {
-    "rollout": 100
-  },
-  "application_view-nua-activity": {
-    "rollout": 0
-  },
-  "application_training": {
-    "rollout": 100
-  },
-  "application_training_ner": {
-    "rollout": 100
-  },
-  "application_download-desktop-app": {
-    "rollout": 100
-  },
-  "application_upload-q-and-a": {
-    "rollout": 100
-  },
-  "application_user-prompts": {
-    "rollout": 0,
-    "variants": {
-      "account_id_md5": [
-        "d90e71d72010b80cf0b5c3da39525c08",
-        "1ef5c764f15a5ad93d376e2bf2705cba",
-        "2fcdcbc99c908993cb0024ec59927dc5"
-      ]
-    }
-  },
-  "application_suggest-entities": {
-    "rollout": 100
-  },
-  "application_zones": {
-    "rollout": 100,
-    "variants": {
-      "blocklist": ["aws-us-east-2-1"]
-    }
-  }
 }
