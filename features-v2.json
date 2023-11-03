@@ -47,6 +47,16 @@
   "nucliadb_export_import_tasks": {
     "rollout": 100
   },
+  "nucliadb_experimental_kb": {
+    "rollout": 0,
+    "variants": {
+        "slug": [
+            "4b94b396-74d3-4cea-a97d-935303e8fbf2:experimental-tiny",
+            "4b94b396-74d3-4cea-a97d-935303e8fbf2:experimental-small",
+            "4b94b396-74d3-4cea-a97d-935303e8fbf2:experimental-medium"
+        ]
+    }
+  },
   "application_billing": {
     "rollout": 100
   },
