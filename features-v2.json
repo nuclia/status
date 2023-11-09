@@ -55,6 +55,7 @@
     "rollout": 0,
     "variants": {
       "environment": ["stage"]
+    }
   },
   "nucliadb_experimental_kb": {
     "rollout": 0,
