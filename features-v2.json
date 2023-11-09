@@ -51,6 +51,11 @@
   "nucliadb_export_import_tasks": {
     "rollout": 100
   },
+  "nucliadb_facets_translation": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["stage"]
+  },
   "nucliadb_experimental_kb": {
     "rollout": 0,
     "variants": {
