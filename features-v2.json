@@ -44,10 +44,7 @@
   "nua_authorizer_proxy_regional_requests": {
     "rollout": 100
   },
-  "nucliadb_export_import_tasks": {
-    "rollout": 100
-  },
-  "nucliadb_facets_translation": {
+  "nuclia_summarization": {
     "rollout": 0,
     "variants": {
       "environment": ["stage"]
