@@ -53,11 +53,7 @@
   "nucliadb_experimental_kb": {
     "rollout": 0,
     "variants": {
-        "slug": [
-            "4b94b396-74d3-4cea-a97d-935303e8fbf2:experimental-tiny",
-            "4b94b396-74d3-4cea-a97d-935303e8fbf2:experimental-small",
-            "4b94b396-74d3-4cea-a97d-935303e8fbf2:experimental-medium"
-        ]
+      "environment": ["stage"]
     }
   },
   "application_billing": {
