@@ -45,10 +45,7 @@
     "rollout": 100
   },
   "nuclia_summarization": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["stage"]
-    }
+    "rollout": 100
   },
   "nucliadb_experimental_kb": {
     "rollout": 0,
