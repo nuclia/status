@@ -62,6 +62,9 @@
   "application_knowledge-graph": {
     "rollout": 0
   },
+  "application_github-signin": {
+    "rollout": 0
+  },
   "application_manage-entities": {
     "rollout": 100
   },
