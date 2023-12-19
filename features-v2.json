@@ -105,5 +105,8 @@
     "variants": {
       "blocklist": ["aws-us-east-2-1"]
     }
-  }
+  },
+  "application_allow-kb-management-from-nua-key": {
+    "rollout": 0
+  },
 }
