@@ -108,5 +108,5 @@
   },
   "application_allow-kb-management-from-nua-key": {
     "rollout": 0
-  },
+  }
 }
