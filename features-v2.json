@@ -47,6 +47,18 @@
   "nuclia_summarization": {
     "rollout": 100
   },
+  "nua_disable_global_kb_nuakey_endpoints": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["stage"]
+    }
+  },  
+  "nua_disable_regional_kb_nuakey_endpoints": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["stage"]
+    }
+  },    
   "nucliadb_experimental_kb": {
     "rollout": 0,
     "variants": {
