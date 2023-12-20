@@ -52,17 +52,29 @@
     "variants": {
       "environment": ["stage"]
     }
-  },  
+  },
   "nua_disable_regional_kb_nuakey_endpoints": {
     "rollout": 0,
     "variants": {
       "environment": ["stage"]
     }
-  },    
+  },
   "nucliadb_experimental_kb": {
     "rollout": 0,
     "variants": {
       "environment": ["stage"]
+    }
+  },
+  "nua_run_new_regional_stats_cronjobs": {
+    "rollout": 0,
+    "variants": {
+      "zone": ["aws-us-east-2-1"]
+    }
+  },
+  "nua_run_legacy_stats_cronjobs": {
+    "rollout": 0,
+    "variants": {
+      "zone": ["europe-1"]
     }
   },
   "application_billing": {
