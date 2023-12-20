@@ -122,6 +122,6 @@
     "rollout": 0
   },
   "application_disable-onboarding": {
-    "rollout": 100
+    "rollout": 0
   }
 }
