@@ -50,7 +50,7 @@
   "nua_disable_global_kb_nuakey_endpoints": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": ["stage", "prod"]
     }
   },
   "nua_disable_regional_kb_nuakey_endpoints": {
