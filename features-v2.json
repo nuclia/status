@@ -65,6 +65,18 @@
       "environment": ["stage"]
     }
   },
+  "nua_run_new_regional_stats_cronjobs": {
+    "rollout": 0,
+    "variants": {
+      "zone": ["aws-us-east-2-1"]
+    }
+  },
+  "nua_run_legacy_stats_cronjobs": {
+    "rollout": 0,
+    "variants": {
+      "zone": ["europe-1"]
+    }
+  },
   "application_billing": {
     "rollout": 100
   },
