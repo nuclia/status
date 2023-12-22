@@ -134,6 +134,6 @@
     "rollout": 0
   },
   "application_new-pricing": {
-    "rollout": 0
+    "rollout": 100
   }
 }
