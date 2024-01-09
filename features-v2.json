@@ -141,5 +141,8 @@
   },
   "application_new-pricing": {
     "rollout": 100
+  },
+  "application_summarization": {
+    "rollout": 0
   }
 }
