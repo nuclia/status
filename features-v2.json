@@ -83,6 +83,12 @@
       "zone": ["europe-1"]
     }
   },
+  "nua_run_legacy_accounting_aggregators": {
+    "rollout": 0,
+    "variants": {
+      "zone": ["europe-1"]
+    }
+  },
   "application_billing": {
     "rollout": 100
   },
