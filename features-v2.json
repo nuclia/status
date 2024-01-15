@@ -80,7 +80,8 @@
   "nua_run_legacy_stats_cronjobs": {
     "rollout": 0,
     "variants": {
-      "zone": []
+      "zone": ["europe-1"],
+      "environment": ["prod"]
     }
   },
   "nua_run_legacy_accounting_aggregators": {
