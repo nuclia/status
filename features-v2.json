@@ -78,10 +78,7 @@
     }
   },
   "nua_run_legacy_stats_cronjobs": {
-    "rollout": 0,
-    "variants": {
-      "zone": ["europe-1-prod"]
-    }
+    "rollout": 0
   },
   "nua_run_legacy_accounting_aggregators": {
     "rollout": 0,
