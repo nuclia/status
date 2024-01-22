@@ -23,6 +23,12 @@
       "environment": ["stage"]
     }
   },
+  "nucliadb_processing_v2": {
+    "rollout": 0,
+    "variants": {
+      "kbid": ["892c6239-8541-4645-a082-a21c5dc4a3bf", "c8391133-c25e-4e52-9701-02a3584c1231"]
+    }
+  },
   "nua_stage_disabled_generative_models": {
     "rollout": 0,
     "variants": {
