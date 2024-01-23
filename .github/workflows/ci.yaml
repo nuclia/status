@@ -1,4 +1,4 @@
-name: nucliadb Licences check
+name: JSON files validation
 
 on:
   pull_request:
