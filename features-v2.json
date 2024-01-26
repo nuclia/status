@@ -150,5 +150,8 @@
   },
   "application_summarization": {
     "rollout": 0
+  },
+  "application_new-processing-status": {
+    "rollout": 0
   }
 }
