@@ -26,7 +26,7 @@
   "nucliadb_processing_v2": {
     "rollout": 0,
     "variants": {
-      "kbid": ["892c6239-8541-4645-a082-a21c5dc4a3bf", "c8391133-c25e-4e52-9701-02a3584c1231", "e94ccb75-c6d5-424e-bb0b-c98479fc4146", "be585fbc-3498-4978-a2a8-85cbc45ef519"]
+      "environment": ["stage"]
     }
   },
   "nua_stage_disabled_generative_models": {
