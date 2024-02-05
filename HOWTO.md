@@ -39,3 +39,13 @@ When the problem is gone, edit again `status.json` and set `active` to `false`, 
 - Edit [`features.json`](https://github.com/nuclia/status/edit/main/features.json)
 - Set the features you want, value can be `true`, `false`, or a string
 - Commit the file
+
+### Feature flagging V2
+
+- Edit [`features-v2.json`](https://github.com/nuclia/status/edit/main/features-v2.json)
+- Set the features you want, the value is a json object that contains:
+    - Rollout: Integer from 0 to 100 (0 -> disabled, 100 -> enabled)
+    - Variants (Optional). When using variants the rollout value should be set to 0. Using multiple variants act as an OR condition. 
+      - Example one variant: `{"environment:": ["stage", "test"]}`. Flag enabled when environment is stage or test.
+      - Example two variants: `{"environment:": ["stage"], "zone": ["europe"]}`. Flag enabled when environment is stage or zone is europe.
+- Commit the file
