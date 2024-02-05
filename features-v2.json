@@ -153,5 +153,11 @@
   },
   "application_new-processing-status": {
     "rollout": 0
+  },
+  "core_services_idp_regional_stop_push_stats": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["stage"]
+    }
   }
 }
