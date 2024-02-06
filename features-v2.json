@@ -75,7 +75,8 @@
   "nucliadb_read_replica_searches": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": ["stage"],
+      "kbid": ["e965ef8e-d678-44a0-a55c-e89a735a6d7c"]
     }
   },
   "nua_run_new_regional_stats_cronjobs": {
