@@ -76,7 +76,11 @@
     "rollout": 0,
     "variants": {
       "environment": ["stage"],
-      "kbid": ["bcaf7336-8d90-419f-8f42-17bcba0cb402", "7349e40a-5c76-4b2c-865c-2e822b7dbb76"]
+      "kbid": [
+        "bcaf7336-8d90-419f-8f42-17bcba0cb402",
+        "7349e40a-5c76-4b2c-865c-2e822b7dbb76",
+        "7c0edb43-0d94-4044-bfd6-ebf4fb397bb3"
+      ]
     }
   },
   "nua_run_new_regional_stats_cronjobs": {
