@@ -73,7 +73,7 @@
     "rollout": 0,
     "variants": {
       "environment": ["stage"],
-      "zone": ["europe-1"],
+      "zone": ["europe-1"]
     }
   },
   "nua_run_new_regional_stats_cronjobs": {
