@@ -72,7 +72,7 @@
   "nucliadb_read_replica_searches": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage", "prod"],
+      "environment": ["stage", "prod"]
     }
   },
   "nua_run_new_regional_stats_cronjobs": {
