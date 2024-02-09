@@ -5,6 +5,12 @@
       "user_id_md5": ["202cb962ac59075b964b07152d234b70"]
     }
   },
+  "nucliadb_versioned_private_predict": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["stage"]
+    }
+  },  
   "nucliadb_wait_for_resource_index": {
     "rollout": 0,
     "variants": {
