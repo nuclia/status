@@ -8,7 +8,7 @@
   "nucliadb_versioned_private_predict": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": ["none"]
     }
   },  
   "nucliadb_wait_for_resource_index": {
