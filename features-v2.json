@@ -160,5 +160,11 @@
   },
   "core_services_idp_regional_stop_push_stats": {
     "rollout": 0
+  },
+  "core_services_idp_regional_stop_use_internal_service_urls": {
+    "rollout": 0,
+    "variants": {
+      "zone": ["europe-1-stage"]
+    }
   }
 }
