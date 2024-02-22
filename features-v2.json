@@ -143,7 +143,7 @@
   "application_zones": {
     "rollout": 100,
     "variants": {
-      "blocklist": ["aws-us-east-2-1"]
+      "blocklist": []
     }
   },
   "application_allow-kb-management-from-nua-key": {
@@ -153,9 +153,6 @@
     "rollout": 100
   },
   "application_summarization": {
-    "rollout": 0
-  },
-  "application_new-processing-status": {
     "rollout": 0
   },
   "core_services_idp_regional_stop_push_stats": {
