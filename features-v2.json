@@ -143,7 +143,7 @@
   "application_zones": {
     "rollout": 100,
     "variants": {
-      "blocklist": ["aws-us-east-2-1"]
+      "blocklist": []
     }
   },
   "application_allow-kb-management-from-nua-key": {
@@ -155,16 +155,13 @@
   "application_summarization": {
     "rollout": 0
   },
-  "application_new-processing-status": {
-    "rollout": 0
-  },
   "core_services_idp_regional_stop_push_stats": {
     "rollout": 0
   },
   "core_services_idp_regional_stop_use_internal_service_urls": {
     "rollout": 0,
     "variants": {
-      "zone": ["europe-1-stage"]
+      "zone": ["europe-1-stage", "aws-us-east-2-1-prod"]
     }
   }
 }
