@@ -10,7 +10,7 @@
     "variants": {
       "environment": ["none"]
     }
-  },  
+  },
   "nucliadb_wait_for_resource_index": {
     "rollout": 0,
     "variants": {
@@ -104,6 +104,9 @@
   },
   "application_github-signin": {
     "rollout": 0
+  },
+  "application_llm-prompt-lab": {
+    "rollout": 100
   },
   "application_manage-entities": {
     "rollout": 100
