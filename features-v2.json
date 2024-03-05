@@ -42,7 +42,7 @@
   "nua_prod_disabled_generative_models": {
     "rollout": 0,
     "variants": {
-      "model": ["cohere", "nuclia-atlas-v1", "nuclia-etna-v1", "nuclia-everest-v1", "chatgpt", "palm"]
+      "model": ["cohere", "nuclia-atlas-v1", "nuclia-etna-v1", "nuclia-everest-v1", "chatgpt", "palm","claude-3-fast"]
     }
   },
   "nua_suspend_unpaid_accounts": {
