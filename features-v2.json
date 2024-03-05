@@ -5,6 +5,12 @@
       "user_id_md5": ["202cb962ac59075b964b07152d234b70"]
     }
   },
+  "nucliadb_versioned_private_predict": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["none"]
+    }
+  },
   "nucliadb_wait_for_resource_index": {
     "rollout": 0,
     "variants": {
@@ -24,11 +30,8 @@
     }
   },
   "nucliadb_processing_v2": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["stage"],
-      "kbid": ["b94c1fd9-cf2b-4632-ac1e-ddf44a016ddc"]
-    }
+    "rollout": 100,
+    "variants": {}
   },
   "nua_stage_disabled_generative_models": {
     "rollout": 0,
@@ -75,12 +78,7 @@
   "nucliadb_read_replica_searches": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"],
-      "kbid": [
-        "bcaf7336-8d90-419f-8f42-17bcba0cb402",
-        "7349e40a-5c76-4b2c-865c-2e822b7dbb76",
-        "7c0edb43-0d94-4044-bfd6-ebf4fb397bb3"
-      ]
+      "environment": ["stage", "prod"]
     }
   },
   "nua_run_new_regional_stats_cronjobs": {
@@ -106,6 +104,9 @@
   },
   "application_github-signin": {
     "rollout": 0
+  },
+  "application_llm-prompt-lab": {
+    "rollout": 100
   },
   "application_manage-entities": {
     "rollout": 100
@@ -145,7 +146,7 @@
   "application_zones": {
     "rollout": 100,
     "variants": {
-      "blocklist": ["aws-us-east-2-1"]
+      "blocklist": []
     }
   },
   "application_allow-kb-management-from-nua-key": {
@@ -157,13 +158,15 @@
   "application_summarization": {
     "rollout": 0
   },
-  "application_new-processing-status": {
-    "rollout": 0
-  },
   "core_services_idp_regional_stop_push_stats": {
     "rollout": 0
   },
   "core_services_idp_regional_stop_create_or_edit_kbs_and_nuakeys": {
     "rollout": 0
+  "core_services_idp_regional_stop_use_internal_service_urls": {
+    "rollout": 0,
+    "variants": {
+      "zone": ["aws-us-east-2-1-prod"]
+    }
   }
 }
