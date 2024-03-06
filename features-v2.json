@@ -115,7 +115,7 @@
     "rollout": 100
   },
   "application_sync": {
-    "rollout": 0
+    "rollout": 100
   },
   "application_view-nua-activity": {
     "rollout": 0
