@@ -23,16 +23,6 @@
       "environment": ["stage"]
     }
   },
-  "nuclaidb_rollover_shards": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["stage"]
-    }
-  },
-  "nucliadb_processing_v2": {
-    "rollout": 100,
-    "variants": {}
-  },
   "nua_stage_disabled_generative_models": {
     "rollout": 0,
     "variants": {
@@ -92,6 +82,12 @@
   },
   "nua_run_legacy_accounting_aggregators": {
     "rollout": 0
+  },
+  "processing_triton_enabled": {
+    "rollout": 0,
+    "variants": {
+      "kbid": ["a950befd-99df-4757-8869-76bb9cae318b"]
+    }
   },
   "application_billing": {
     "rollout": 100
