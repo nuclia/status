@@ -120,10 +120,10 @@
     "rollout": 0
   },
   "application_training": {
-    "rollout": 100
+    "rollout": 0
   },
   "application_training_ner": {
-    "rollout": 100
+    "rollout": 0
   },
   "application_download-desktop-app": {
     "rollout": 100
