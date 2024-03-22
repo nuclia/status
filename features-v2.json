@@ -177,5 +177,11 @@
     "variants": {
       "zone": ["europe-1-stage", "aws-us-east-2-1-prod"]
     }
+  },
+  "rerank_citations_enabled": {
+    "rollout": 0,
+    "variants": {
+      "kbid": ["a7880aa4-370e-4409-9008-0edca7e04258"]
+    }
   }
 }
