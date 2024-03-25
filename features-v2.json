@@ -77,6 +77,9 @@
       "kbid": ["338e736f-5cd5-4251-9ecb-e293b60893ea"]
     }
   },
+  "nucliadb_rebalance_kb": {
+    "rollout": 0
+  },
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
     "variants": {
