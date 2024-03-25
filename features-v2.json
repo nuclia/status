@@ -113,9 +113,6 @@
   "application_manage-entities": {
     "rollout": 100
   },
-  "application_nucliadb_processing_v2": {
-    "rollout": 100
-  },
   "application_kb-anonymization": {
     "rollout": 100
   },
