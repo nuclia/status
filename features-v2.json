@@ -32,7 +32,7 @@
   "nua_prod_disabled_generative_models": {
     "rollout": 0,
     "variants": {
-      "model": ["cohere", "nuclia-atlas-v1", "nuclia-etna-v1", "nuclia-everest-v1", "chatgpt", "palm"]
+      "model": ["cohere", "nuclia-atlas-v1", "nuclia-etna-v1", "nuclia-everest-v1", "chatgpt", "palm", "chatgpt-vision"]
     }
   },
   "nua_suspend_unpaid_accounts": {
@@ -81,6 +81,13 @@
     "rollout": 0,
     "variants": {
       "kbid": ["892c6239-8541-4645-a082-a21c5dc4a3bf"]
+    },
+    "rollout": 0
+  },
+  "nucliadb_cors_middleware_enabled": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["prod"]
     }
   },
   "nua_run_new_regional_stats_cronjobs": {
@@ -117,9 +124,6 @@
     "rollout": 100
   },
   "application_manage-entities": {
-    "rollout": 100
-  },
-  "application_nucliadb_processing_v2": {
     "rollout": 100
   },
   "application_kb-anonymization": {
@@ -187,7 +191,7 @@
   "rerank_citations_enabled": {
     "rollout": 0,
     "variants": {
-      "kbid": ["a7880aa4-370e-4409-9008-0edca7e04258"]
+      "kbid": ["a7880aa4-370e-4409-9008-0edca7e04258","b0c61b28-cd75-44ee-9048-52fbcdbca5fe"]
     }
   }
 }
