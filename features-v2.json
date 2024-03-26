@@ -80,6 +80,13 @@
   "nucliadb_rebalance_kb": {
     "rollout": 0
   },
+  {
+  "nucliadb_cors_middleware_enabled": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["prod"]
+    }
+  },
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
     "variants": {
