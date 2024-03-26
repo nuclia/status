@@ -81,8 +81,7 @@
     "rollout": 0,
     "variants": {
       "kbid": ["892c6239-8541-4645-a082-a21c5dc4a3bf"]
-    },
-    "rollout": 0
+    }
   },
   "nucliadb_cors_middleware_enabled": {
     "rollout": 0,
