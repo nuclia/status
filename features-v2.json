@@ -77,6 +77,18 @@
       "kbid": ["338e736f-5cd5-4251-9ecb-e293b60893ea"]
     }
   },
+  "nucliadb_rebalance_kb": {
+    "rollout": 0,
+    "variants": {
+      "kbid": ["892c6239-8541-4645-a082-a21c5dc4a3bf"]
+    }
+  },
+  "nucliadb_cors_middleware_enabled": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["prod"]
+    }
+  },
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
     "variants": {
