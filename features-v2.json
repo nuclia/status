@@ -190,7 +190,7 @@
   "rerank_citations_enabled": {
     "rollout": 0,
     "variants": {
-      "kbid": ["a7880aa4-370e-4409-9008-0edca7e04258","b0c61b28-cd75-44ee-9048-52fbcdbca5fe"]
-    }
+      "environment": ["stage"]
+     }
   }
 }
