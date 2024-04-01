@@ -80,7 +80,7 @@
   "nucliadb_rebalance_kb": {
     "rollout": 0,
     "variants": {
-      "kbid": ["892c6239-8541-4645-a082-a21c5dc4a3bf"]
+      "environment": ["stage"]
     }
   },
   "nucliadb_cors_middleware_enabled": {
