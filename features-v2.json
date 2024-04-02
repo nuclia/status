@@ -90,10 +90,7 @@
     }
   },
   "nucliadb_cors_middleware_enabled": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["prod"]
-    }
+    "rollout": 0
   },
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
