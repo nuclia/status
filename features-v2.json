@@ -74,7 +74,7 @@
   "nucliadb_back_pressure": {
     "rollout": 0,
     "variants": {
-      "kbid": ["338e736f-5cd5-4251-9ecb-e293b60893ea"]
+      "environment": ["stage"]
     }
   },
   "nucliadb_rebalance_kb": {
