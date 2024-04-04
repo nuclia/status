@@ -92,7 +92,7 @@
   "nucliadb_back_pressure": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": ["stage", "prod"]
     }
   },
   "nucliadb_rebalance_kb": {
