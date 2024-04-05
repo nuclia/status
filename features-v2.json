@@ -1,4 +1,10 @@
 {
+  "nucliadb_predict_query_endpoint": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["stage"]
+    }
+  },
   "test_feature": {
     "rollout": 0,
     "variants": {
@@ -21,6 +27,18 @@
     "rollout": 0,
     "variants": {
       "environment": ["stage"]
+    }
+  },
+  "nua_stage_disabled_embedding_models": {
+    "rollout": 0,
+    "variants": {
+      "model": []
+    }
+  },
+  "nua_prod_disabled_embedding_models": {
+    "rollout": 0,
+    "variants": {
+      "model": ["text-embedding-3-small", "text-embedding-3-large"]
     }
   },
   "nua_stage_disabled_generative_models": {
@@ -74,20 +92,17 @@
   "nucliadb_back_pressure": {
     "rollout": 0,
     "variants": {
-      "kbid": ["338e736f-5cd5-4251-9ecb-e293b60893ea"]
+      "environment": ["stage", "prod"]
     }
   },
   "nucliadb_rebalance_kb": {
     "rollout": 0,
     "variants": {
-      "kbid": ["892c6239-8541-4645-a082-a21c5dc4a3bf"]
+      "environment": ["stage"]
     }
   },
   "nucliadb_cors_middleware_enabled": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["prod"]
-    }
+    "rollout": 0
   },
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
@@ -104,7 +119,7 @@
   "processing_triton_enabled": {
     "rollout": 0,
     "variants": {
-      "kbid": ["a950befd-99df-4757-8869-76bb9cae318b"]
+      "environment": ["stage"]
     }
   },
   "application_billing": {
@@ -191,6 +206,18 @@
     "rollout": 0,
     "variants": {
       "environment": []
+    }
+  },
+  "core_services_accounting_enable_legacy_zone_stats_subscriber": {
+    "rollout": 0,
+    "variants": {
+      "zone": ["global"]
+    }
+  },
+  "core_services_accounting_enable_new_zone_stats_subscriber": {
+    "rollout": 0,
+    "variants": {
+      "zone": ["gke-global-stage-1"]
     }
   },
   "rerank_citations_enabled": {
