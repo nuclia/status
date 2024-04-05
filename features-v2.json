@@ -50,7 +50,7 @@
   "nua_prod_disabled_generative_models": {
     "rollout": 0,
     "variants": {
-      "model": ["cohere", "nuclia-atlas-v1", "nuclia-etna-v1", "nuclia-everest-v1", "chatgpt", "palm", "chatgpt-vision"]
+      "model": ["cohere", "nuclia-atlas-v1", "nuclia-etna-v1", "nuclia-everest-v1", "chatgpt", "palm", "chatgpt-vision","azure-mistral"]
     }
   },
   "nua_suspend_unpaid_accounts": {
@@ -223,7 +223,8 @@
   "rerank_citations_enabled": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": ["stage"],
+      "kbid":["62e14cf4-4890-4a51-b35f-cd8c50cf9a8b"]
      }
   }
 }
