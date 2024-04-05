@@ -2,7 +2,7 @@
   "nucliadb_predict_query_endpoint": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": ["stage", "prod"]
     }
   },
   "test_feature": {
