@@ -223,8 +223,7 @@
   "rerank_citations_enabled": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"],
-      "kbid":["62e14cf4-4890-4a51-b35f-cd8c50cf9a8b"]
+      "environment": ["stage","prod"]
      }
   }
 }
