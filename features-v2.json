@@ -202,6 +202,12 @@
       "zone": ["europe-1-stage", "aws-us-east-2-1-prod"]
     }
   },
+  "core_services_accounting_enable_kb_usage_aggregate_cronjob": {
+    "rollout": 0,
+    "variants": {
+      "environment": []
+    }
+  },
   "core_services_accounting_enable_legacy_zone_stats_subscriber": {
     "rollout": 0,
     "variants": {
