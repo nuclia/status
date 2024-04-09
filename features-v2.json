@@ -216,7 +216,7 @@
   "core_services_accounting_enable_kb_usage_aggregate_cronjob": {
     "rollout": 0,
     "variants": {
-      "environment": []
+      "environment": ["stage"]
     }
   },
   "core_services_accounting_enable_legacy_zone_stats_subscriber": {
