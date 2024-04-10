@@ -58,7 +58,9 @@
         "chatgpt",
         "palm",
         "chatgpt-vision",
-        "azure-mistral"
+        "azure-mistral",
+        "gemini-1.5-pro-vision",
+        "gemini-1.5-pro"
       ]
     }
   },
