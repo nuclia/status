@@ -97,7 +97,7 @@
   "nucliadb_read_replica_searches": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage", "prod"]
+      "environment": ["stage"]
     }
   },
   "nucliadb_back_pressure": {
