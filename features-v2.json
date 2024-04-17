@@ -127,11 +127,8 @@
     "rollout": 0
   },
   "processing_triton_enabled": {
-    "rollout": 0,
-    "variants": {
-      "environment": ["stage"],
-      "kbid": ["44db5df9-e1b1-414b-85d0-64096ff1a170", "d4e073f9-ad9e-46ff-ab08-1f603fa37d6b"]
-    }
+    "rollout": 100,
+    "variants": {}
   },
   "application_billing": {
     "rollout": 100
