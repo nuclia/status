@@ -130,6 +130,18 @@
     "rollout": 100,
     "variants": {}
   },
+  "processor_relations_disable_triton": {
+    "rollout": 0,
+    "variants": {
+      "environment": ["stage"]
+    }
+  },
+  "processor_relations_batched": {
+    "rollout": 0,
+    "variants": {
+      "environment": []
+    }
+  },
   "application_billing": {
     "rollout": 100
   },
