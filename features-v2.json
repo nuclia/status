@@ -133,13 +133,13 @@
   "processor_relations_disable_triton": {
     "rollout": 0,
     "variants": {
-      "environment": []
+      "environment": ["prod"]
     }
   },
   "processor_relations_batched": {
     "rollout": 0,
     "variants": {
-      "environment": ["prod"]
+      "environment": []
     }
   },
   "application_billing": {
