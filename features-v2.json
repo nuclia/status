@@ -133,7 +133,7 @@
   "processor_relations_disable_triton": {
     "rollout": 0,
     "variants": {
-      "environment": []
+      "environment": ["stage"]
     }
   },
   "processor_relations_batched": {
