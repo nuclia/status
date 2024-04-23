@@ -262,7 +262,7 @@
   "core_services_accounting_enable_new_stripe_usage_subscriber": {
     "rollout": 0,
     "variants": {
-      "zone": []
+      "zone": ["gke-global-stage-1"]
     }
   },
   "rerank_citations_enabled": {
