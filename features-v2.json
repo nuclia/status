@@ -38,7 +38,7 @@
   "nua_prod_disabled_embedding_models": {
     "rollout": 0,
     "variants": {
-      "model": ["text-embedding-3-small", "text-embedding-3-large", "gecko-embeddings-multi", "bge-large-en-v1-5"]
+      "model": ["text-embedding-3-small", "text-embedding-3-large", "bge-large-en-v1-5"]
     }
   },
   "nua_stage_disabled_generative_models": {
