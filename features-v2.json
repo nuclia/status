@@ -106,8 +106,7 @@
   },
   "nucliadb_rebalance_kb": {
     "rollout": 100,
-    "variants": {
-    }
+    "variants": {}
   },
   "nucliadb_cors_middleware_enabled": {
     "rollout": 0
@@ -148,6 +147,9 @@
   },
   "application_knowledge-graph": {
     "rollout": 0
+  },
+  "application_gecko-model": {
+    "rollout": 100
   },
   "application_github-signin": {
     "rollout": 0
