@@ -2,31 +2,42 @@
   "nucliadb_predict_query_endpoint": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage", "prod"]
+      "environment": [
+        "stage",
+        "prod"
+      ]
     }
   },
   "test_feature": {
     "rollout": 0,
     "variants": {
-      "user_id_md5": ["202cb962ac59075b964b07152d234b70"]
+      "user_id_md5": [
+        "202cb962ac59075b964b07152d234b70"
+      ]
     }
   },
   "nucliadb_versioned_private_predict": {
     "rollout": 0,
     "variants": {
-      "environment": ["none"]
+      "environment": [
+        "none"
+      ]
     }
   },
   "nucliadb_wait_for_resource_index": {
     "rollout": 0,
     "variants": {
-      "environment": ["none"]
+      "environment": [
+        "none"
+      ]
     }
   },
   "nucliadb_default_min_score": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": [
+        "stage"
+      ]
     }
   },
   "nua_stage_disabled_embedding_models": {
@@ -38,7 +49,11 @@
   "nua_prod_disabled_embedding_models": {
     "rollout": 0,
     "variants": {
-      "model": ["text-embedding-3-small", "text-embedding-3-large", "gecko-embeddings-multi", "bge-large-en-v1-5"]
+      "model": [
+        "text-embedding-3-small",
+        "text-embedding-3-large",
+        "bge-large-en-v1-5"
+      ]
     }
   },
   "nua_stage_disabled_generative_models": {
@@ -77,37 +92,49 @@
   "nua_disable_global_kb_nuakey_endpoints": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage", "prod"]
+      "environment": [
+        "stage",
+        "prod"
+      ]
     }
   },
   "nua_disable_regional_kb_nuakey_endpoints": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": [
+        "stage"
+      ]
     }
   },
   "nucliadb_experimental_kb": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": [
+        "stage"
+      ]
     }
   },
   "nucliadb_read_replica_searches": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage", "prod"]
+      "environment": [
+        "stage",
+        "prod"
+      ]
     }
   },
   "nucliadb_back_pressure": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage", "prod"]
+      "environment": [
+        "stage",
+        "prod"
+      ]
     }
   },
   "nucliadb_rebalance_kb": {
     "rollout": 100,
-    "variants": {
-    }
+    "variants": {}
   },
   "nucliadb_cors_middleware_enabled": {
     "rollout": 0
@@ -115,7 +142,10 @@
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
     "variants": {
-      "zone": ["europe-1", "aws-us-east-2-1"]
+      "zone": [
+        "europe-1",
+        "aws-us-east-2-1"
+      ]
     }
   },
   "nua_run_legacy_stats_cronjobs": {
@@ -137,7 +167,9 @@
   "processor_relations_batched": {
     "rollout": 0,
     "variants": {
-      "environment": ["prod"]
+      "environment": [
+        "prod"
+      ]
     }
   },
   "application_billing": {
@@ -148,6 +180,9 @@
   },
   "application_knowledge-graph": {
     "rollout": 0
+  },
+  "application_gecko-model": {
+    "rollout": 100
   },
   "application_github-signin": {
     "rollout": 0
@@ -220,25 +255,34 @@
   "core_services_idp_regional_stop_use_internal_service_urls": {
     "rollout": 0,
     "variants": {
-      "zone": ["europe-1-stage", "aws-us-east-2-1-prod"]
+      "zone": [
+        "europe-1-stage",
+        "aws-us-east-2-1-prod"
+      ]
     }
   },
   "core_services_accounting_enable_kb_usage_aggregate_cronjob": {
     "rollout": 0,
     "variants": {
-      "environment": ["stage"]
+      "environment": [
+        "stage"
+      ]
     }
   },
   "core_services_accounting_enable_legacy_zone_stats_subscriber": {
     "rollout": 0,
     "variants": {
-      "zone": ["global"]
+      "zone": [
+        "global"
+      ]
     }
   },
   "core_services_accounting_enable_new_zone_stats_subscriber": {
     "rollout": 0,
     "variants": {
-      "zone": ["gke-global-stage-1"]
+      "zone": [
+        "gke-global-stage-1"
+      ]
     }
   },
   "core_services_accounting_enable_legacy_stripe_aggregate_cronjob": {
@@ -268,7 +312,10 @@
   "rerank_citations_enabled": {
     "rollout": 100,
     "variants": {
-      "environment": ["stage", "prod"]
+      "environment": [
+        "stage",
+        "prod"
+      ]
     }
   }
 }
