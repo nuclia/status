@@ -258,7 +258,7 @@
       "zone": [
         "europe-1-stage",
         "aws-us-east-2-1-prod",
-        "europe-1-prod",
+        "europe-1-prod"
       ]
     }
   },
