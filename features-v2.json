@@ -287,10 +287,7 @@
     }
   },
   "core_services_accounting_enable_legacy_stripe_aggregate_cronjob": {
-    "rollout": 0,
-    "variants": {
-      "zone": ["global"]
-    }
+    "rollout": 0
   },
   "core_services_accounting_enable_new_stripe_aggregate_cronjob": {
     "rollout": 0,
