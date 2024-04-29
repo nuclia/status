@@ -253,10 +253,7 @@
     "rollout": 0
   },
   "core_services_idp_regional_stop_push_stats": {
-    "rollout": 0, 
-    "variants": {
-      "environment": ["prod"]
-    }
+    "rollout": 0
   },
   "core_services_idp_regional_stop_create_or_edit_kbs_and_nuakeys": {
     "rollout": 0
@@ -290,8 +287,10 @@
     "rollout": 0,
     "variants": {
       "zone": [
-        "gke-global-stage-1"
-      ]
+        "gke-global-stage-1",
+        "europe-1",
+        "gke-global-prod-1"
+      ]      
     }
   },
   "core_services_accounting_enable_legacy_stripe_aggregate_cronjob": {
