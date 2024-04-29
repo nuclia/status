@@ -294,7 +294,11 @@
   "core_services_accounting_enable_new_stripe_aggregate_cronjob": {
     "rollout": 0,
     "variants": {
-      "zone": ["gke-global-stage-1"]
+      "zone": [
+        "gke-global-stage-1",
+        "global",
+        "gke-global-prod-1"
+    ]
     }
   },
   "core_services_accounting_enable_legacy_stripe_usage_subscriber": {
@@ -303,7 +307,11 @@
   "core_services_accounting_enable_new_stripe_usage_subscriber": {
     "rollout": 0,
     "variants": {
-      "zone": ["gke-global-stage-1"]
+      "zone": [
+        "gke-global-stage-1",
+        "global",
+        "gke-global-prod-1"
+      ]
     }
   },
   "rerank_citations_enabled": {
