@@ -40,6 +40,12 @@
       ]
     }
   },
+  "learning_split_citations_enabled": {
+    "rollout": 0,
+    "variants": {
+      "kbid": ["8dfc148e-2975-4af5-b838-b8e546104df6"]
+    }
+  },
   "nua_stage_disabled_embedding_models": {
     "rollout": 0,
     "variants": {
@@ -154,6 +160,7 @@
   "nua_run_legacy_accounting_aggregators": {
     "rollout": 0
   },
+  "nua
   "processing_triton_enabled": {
     "rollout": 100,
     "variants": {}
