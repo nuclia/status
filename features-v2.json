@@ -302,7 +302,7 @@
     "variants": {
       "zone": [
         "gke-global-stage-1",
-        "europe-1",
+        "global",
         "gke-global-prod-1"
     ]
     }
@@ -318,7 +318,7 @@
     "variants": {
       "zone": [
         "gke-global-stage-1",
-        "europe-1",
+        "global",
         "gke-global-prod-1"
       ]
     }
