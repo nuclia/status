@@ -276,12 +276,7 @@
     }
   },
   "core_services_accounting_enable_legacy_zone_stats_subscriber": {
-    "rollout": 0,
-    "variants": {
-      "zone": [
-        "global"
-      ]
-    }
+    "rollout": 0
   },
   "core_services_accounting_enable_new_zone_stats_subscriber": {
     "rollout": 0,
