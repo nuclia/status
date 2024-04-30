@@ -178,6 +178,9 @@
       ]
     }
   },
+  "application_ai-table-processing": {
+    "rollout": 100
+  },
   "application_billing": {
     "rollout": 100
   },
