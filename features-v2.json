@@ -212,18 +212,6 @@
   "application_llm-prompt-lab": {
     "rollout": 100
   },
-  "application_manage-entities": {
-    "rollout": 100
-  },
-  "application_kb-anonymization": {
-    "rollout": 100
-  },
-  "application_rag-hierarchy": {
-    "rollout": 100
-  },
-  "application_sync": {
-    "rollout": 100
-  },
   "application_view-nua-activity": {
     "rollout": 0
   },
@@ -232,12 +220,6 @@
   },
   "application_training_ner": {
     "rollout": 0
-  },
-  "application_download-desktop-app": {
-    "rollout": 100
-  },
-  "application_upload-q-and-a": {
-    "rollout": 100
   },
   "application_user-prompts": {
     "rollout": 0,
@@ -260,9 +242,6 @@
     }
   },
   "application_allow-kb-management-from-nua-key": {
-    "rollout": 100
-  },
-  "application_new-pricing": {
     "rollout": 100
   },
   "application_summarization": {
