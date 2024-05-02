@@ -92,7 +92,7 @@
     "rollout": 100
   },
   "nua_authorizer_proxy_regional_requests": {
-    "rollout": 100
+    "rollout": 0
   },
   "nuclia_summarization": {
     "rollout": 100
