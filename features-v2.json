@@ -210,7 +210,10 @@
     "rollout": 0
   },
   "application_llm-prompt-lab": {
-    "rollout": 100
+    "rollout": 100,
+    "variants": {
+      "account_id_md5": []
+    }
   },
   "application_view-nua-activity": {
     "rollout": 0
@@ -242,10 +245,22 @@
     }
   },
   "application_allow-kb-management-from-nua-key": {
-    "rollout": 100
+    "rollout": 100,
+    "variants": {
+      "account_id_md5": []
+    }
   },
   "application_summarization": {
-    "rollout": 0
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": []
+    }
+  },
+  "application_synonyms": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": []
+    }
   },
   "core_services_idp_regional_stop_push_stats": {
     "rollout": 0
