@@ -331,6 +331,14 @@
       ]
     }
   },
+  "core_services_accounting_enable_aws_aggregate_cronjob": {
+    "rollout": 0,
+    "variants": {
+      "zone": [
+        "gke-global-stage-1"
+      ]
+    }
+  },
   "rerank_citations_enabled": {
     "rollout": 100,
     "variants": {
