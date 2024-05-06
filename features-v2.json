@@ -277,7 +277,10 @@
     }
   },
   "core_services_idp_regional_stop_push_stats": {
-    "rollout": 0
+    "rollout": 0,
+    "environment": [
+      "stage"
+    ]
   },
   "core_services_idp_regional_stop_create_or_edit_kbs_and_nuakeys": {
     "rollout": 0
