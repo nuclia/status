@@ -2,11 +2,8 @@
   "nucliadb_node_set_resource_from_storage": {
     "rollout": 0,
     "variants": {
-      "kbid": [
-        "0635dc90-4582-4765-bb5a-ec268e507639",
-        "30d4b6d6-b794-45e1-ade7-6bd08a7db52d",
-        "b6881f1f-a187-4869-b0f6-c54dfd273255",
-        "e9145a84-e2d6-49eb-b77e-f53d50e9e9bf"
+      "environment": [
+        "stage"
       ]
     }
   },
