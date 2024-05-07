@@ -76,7 +76,8 @@
       "model": [
         "text-embedding-3-small",
         "text-embedding-3-large",
-        "bge-large-en-v1-5"
+        "bge-large-en-v1-5",
+        "multilingual-2024-05-06"
       ]
     }
   },
