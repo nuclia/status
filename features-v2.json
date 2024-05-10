@@ -93,7 +93,8 @@
         "nuclia-etna-v1",
         "nuclia-everest-v1",
         "chatgpt",
-        "palm"
+        "palm",
+        "chat-gpt-azure-4-turbo"
       ]
     }
   },
