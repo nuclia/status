@@ -97,8 +97,7 @@
         "nuclia-everest-v1",
         "chatgpt",
         "palm",
-        "chat-gpt-azure-3-1106",
-        "chat-gpt-azure-4-1106"
+        "chat-gpt-azure-4-turbo"
       ]
     }
   },
