@@ -74,9 +74,6 @@
     "rollout": 0,
     "variants": {
       "model": [
-        "text-embedding-3-small",
-        "text-embedding-3-large",
-        "bge-large-en-v1-5",
         "multilingual-2024-05-06"
       ]
     }
@@ -206,6 +203,9 @@
   },
   "application_knowledge-graph": {
     "rollout": 0
+  },
+  "application_openai-models": {
+    "rollout": 100
   },
   "application_gecko-model": {
     "rollout": 100
