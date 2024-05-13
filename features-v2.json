@@ -2,8 +2,8 @@
   "nucliadb_node_set_resource_from_storage": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage"
+      "zone": [
+        "europe-1"
       ]
     }
   },
