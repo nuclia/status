@@ -3,7 +3,8 @@
     "rollout": 0,
     "variants": {
       "zone": [
-        "europe-1"
+        "europe-1",
+        "aws-us-east-2-1"
       ]
     }
   },
