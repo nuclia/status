@@ -84,7 +84,6 @@
     "rollout": 0,
     "variants": {
       "model": [
-        "multilingual-2024-05-06"
       ]
     }
   },
