@@ -163,7 +163,7 @@
     }
   },
   "nucliadb_rebalance_kb": {
-    "rollout": 0,
+    "rollout": 100,
     "variants": {}
   },
   "nucliadb_cors_middleware_enabled": {
