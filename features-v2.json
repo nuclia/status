@@ -115,7 +115,8 @@
         "chatgpt",
         "palm",
         "anthropic",
-        "gemini-pro"
+        "gemini-pro",
+        "chatgpt-azure"
       ]
     }
   },
