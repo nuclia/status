@@ -182,6 +182,14 @@
   "nucliadb_cors_middleware_enabled": {
     "rollout": 0
   },
+  "vectorsets_v0_new_kbs_with_multiple_vectorsets": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "stage"
+      ]
+    }
+  },
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
     "variants": {
