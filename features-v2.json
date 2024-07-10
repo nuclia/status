@@ -116,7 +116,8 @@
         "palm",
         "anthropic",
         "gemini-pro",
-        "chatgpt-azure"
+        "chatgpt-azure",
+        "huggingface"
       ]
     }
   },
