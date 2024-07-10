@@ -84,7 +84,15 @@
         "prod"
       ]
     }
-  },    
+  },      
+  "learning_florence2_enabled": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "stage"
+      ]
+    }
+  },
   "nua_stage_disabled_embedding_models": {
     "rollout": 0,
     "variants": {
