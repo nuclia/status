@@ -103,6 +103,7 @@
     "rollout": 0,
     "variants": {
       "model": [
+        "hf_embedding"
       ]
     }
   },
