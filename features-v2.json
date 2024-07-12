@@ -87,7 +87,11 @@
   },      
   "learning_florence2_enabled": {
     "rollout": 0,
-    "variants": {}
+    "variants": {
+      "environment": [
+        "local"
+      ]
+    }
   },
   "nua_stage_disabled_embedding_models": {
     "rollout": 0,
