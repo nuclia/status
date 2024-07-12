@@ -89,7 +89,7 @@
     "rollout": 0,
     "variants": {
       "environment": [
-        "local"
+        "local","stage"
       ]
     }
   },
