@@ -300,7 +300,7 @@
   "application_summarization": {
     "rollout": 100,
     "variants": {
-      "account_id_md5": []
+      "account_id_md5": ["60b937d154e96a10b6790e3fe9eed897"]
     }
   },
   "application_anonymization": {
