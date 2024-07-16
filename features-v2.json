@@ -259,7 +259,7 @@
   "application_llm-prompt-lab": {
     "rollout": 100,
     "variants": {
-      "account_id_md5": []
+      "account_id_md5": ["60b937d154e96a10b6790e3fe9eed897"]
     }
   },
   "application_view-nua-activity": {
