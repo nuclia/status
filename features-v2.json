@@ -1,30 +1,12 @@
 {
   "nucliadb_find_merge_order_fix": {
-    "rollout": 0,
-    "variants": {
-      "kbid": [
-        "1b50b72a-fe68-4c2d-97cf-1fdd7fa712b8",
-        "17d17844-3acb-4c8f-92bf-1b7aec85b05c"
-      ]
-    }
+    "rollout": 100
   },
   "nucliadb_node_set_resource_from_storage": {
-    "rollout": 0,
-    "variants": {
-      "zone": [
-        "europe-1",
-        "aws-us-east-2-1"
-      ]
-    }
+    "rollout": 100
   },
   "nucliadb_predict_query_endpoint": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
-    }
+    "rollout": 100
   },
   "test_feature": {
     "rollout": 0,
