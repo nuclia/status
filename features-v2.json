@@ -86,9 +86,7 @@
   "nua_prod_disabled_embedding_models": {
     "rollout": 0,
     "variants": {
-      "model": [
-        "hf_embedding"
-      ]
+      "model": []
     }
   },
   "nua_stage_disabled_generative_models": {
@@ -109,8 +107,7 @@
         "palm",
         "anthropic",
         "gemini-pro",
-        "chatgpt-azure",
-        "huggingface"
+        "chatgpt-azure"
       ]
     }
   },
@@ -323,9 +320,9 @@
     }
   },
   "application_hugging-face-semantic": {
-    "rollout": 0,
+    "rollout": 100,
     "variants": {
-      "account_id_md5": []
+      "account_id_md5": ["4f9285c77151443194e63f1fb0d66aca"]
     }
   }
 }
