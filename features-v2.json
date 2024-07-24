@@ -24,6 +24,14 @@
       ]
     }
   },
+  "nucliadb_pg_catalog_write": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "stage"
+      ]
+    }
+  },
   "nucliadb_wait_for_resource_index": {
     "rollout": 0,
     "variants": {
