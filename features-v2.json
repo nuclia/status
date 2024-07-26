@@ -60,7 +60,9 @@
   "learning_multi_citations_enabled": {
     "rollout": 0,
     "variants": {
-      "kbid": ["a9b112e9-e648-4bba-b15b-a52ead6aaa2e"]
+      "environment": [
+        "stage"
+      ]
     }
   },
   "learning_link_images_enabled": {
