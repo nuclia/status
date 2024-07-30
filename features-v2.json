@@ -71,7 +71,8 @@
     "variants": {
       "environment": [
         "stage"
-      ]
+      ],
+      "kbid": ["e9969169-b64d-45cf-9610-7ec5817a54e9","62e14cf4-4890-4a51-b35f-cd8c50cf9a8b"]
     }
   },
   "learning_link_images_enabled": {
@@ -91,14 +92,6 @@
         "stage",
         "prod",
         "local"
-      ]
-    }
-  },      
-  "learning_florence2_enabled": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "local","stage","prod"
       ]
     }
   },
@@ -330,15 +323,6 @@
         "europe-1-stage",
         "aws-us-east-2-1-prod",
         "europe-1-prod"
-      ]
-    }
-  },
-  "rerank_citations_enabled": {
-    "rollout": 100,
-    "variants": {
-      "environment": [
-        "stage",
-        "prod"
       ]
     }
   },
