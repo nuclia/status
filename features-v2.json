@@ -194,7 +194,9 @@
   "vectorsets_v0_new_kbs_with_multiple_vectorsets": {
     "rollout": 0,
     "variants": {
-      "environment": []
+      "environment": [
+        "stage"
+      ]
     }
   },
   "nua_run_new_regional_stats_cronjobs": {
