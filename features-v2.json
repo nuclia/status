@@ -312,10 +312,10 @@
       "account_id_md5": []
     }
   },
-  "application_synonyms": {
-    "rollout": 100,
+  "application_synonyms-enabled": {
+    "rollout": 0,
     "variants": {
-      "account_id_md5": []
+      "account_id_md5": ["f544f008a269f83d87196e68ab5cc65e"]
     }
   },
   "core_services_idp_regional_stop_push_stats": {
