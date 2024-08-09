@@ -1,5 +1,5 @@
 {
-  "nucliadb_nats_async_ack": {
+  "nucliadb_nats_sync_ack": {
     "rollout": 0,
     "variants": {
       "kbid": [
