@@ -46,8 +46,7 @@
     "rollout": 0,
     "variants": {
       "environment": [
-        "stage",
-        "prod"
+        "stage"
       ]
     }
   },
