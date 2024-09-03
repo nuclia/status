@@ -110,9 +110,9 @@
   "learning_triton_whisper_enabled": {
     "rollout": 0,
     "variants": {
-      "kbid": ["76a613d0-8676-4f36-8b82-b6fbda2eff50"],
       "environment": [
-        "stage"
+        "stage",
+        "prod"
       ]
     }
   },
