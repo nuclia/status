@@ -110,10 +110,6 @@
   "learning_triton_whisper_enabled": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
     }
   },
   "nua_stage_disabled_embedding_models": {
