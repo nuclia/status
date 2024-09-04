@@ -110,6 +110,11 @@
   "learning_triton_whisper_enabled": {
     "rollout": 0,
     "variants": {
+      "environment": [
+        "stage",
+        "prod",
+        "local"
+      ]
     }
   },
   "learning_gliner_enabled": {
