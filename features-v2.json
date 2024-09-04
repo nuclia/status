@@ -120,8 +120,8 @@
   "learning_gliner_enabled": {
     "rollout": 0,
     "variants": {
-      "kbid": [
-        "8dfc148e-2975-4af5-b838-b8e546104df6"
+      "environment": [
+        "stage"
       ]
     }
   },
