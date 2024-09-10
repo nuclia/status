@@ -46,10 +46,8 @@
     "rollout": 0,
     "variants": {
       "environment": [
-        "stage"
-      ],
-      "kbid": [
-        "ff327c36-c7d4-4877-993a-916aecdc5d56"
+        "stage",
+        "prod"
       ]
     }
   },
