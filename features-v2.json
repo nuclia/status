@@ -8,15 +8,6 @@
       ]
     }
   },
-  "nucliadb_find_merge_order_fix": {
-    "rollout": 100
-  },
-  "nucliadb_node_set_resource_from_storage": {
-    "rollout": 100
-  },
-  "nucliadb_predict_query_endpoint": {
-    "rollout": 100
-  },
   "test_feature": {
     "rollout": 0,
     "variants": {
@@ -33,37 +24,11 @@
       ]
     }
   },
-  "nucliadb_pg_catalog_write": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
-    }
-  },
-  "nucliadb_pg_catalog_read": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
-    }
-  },
   "nucliadb_wait_for_resource_index": {
     "rollout": 0,
     "variants": {
       "environment": [
         "none"
-      ]
-    }
-  },
-  "nucliadb_default_min_score": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage"
       ]
     }
   },
@@ -195,24 +160,7 @@
       ]
     }
   },
-  "nucliadb_experimental_kb": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage"
-      ]
-    }
-  },
   "nucliadb_read_replica_searches": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
-    }
-  },
-  "nucliadb_back_pressure": {
     "rollout": 0,
     "variants": {
       "environment": [
@@ -224,9 +172,6 @@
   "nucliadb_rebalance_kb": {
     "rollout": 100,
     "variants": {}
-  },
-  "nucliadb_cors_middleware_enabled": {
-    "rollout": 0
   },
   "vectorsets_v0_new_kbs_with_multiple_vectorsets": {
     "rollout": 0,
