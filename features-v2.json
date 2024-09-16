@@ -85,6 +85,10 @@
     "variants": {
       "environment": [
         "stage"
+      ],
+      "kbid": [
+        "76a613d0-8676-4f36-8b82-b6fbda2eff50",
+        "5d4ad42d-556f-492a-8c97-0ed59feca3cf"
       ]
     }
   },
