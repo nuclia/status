@@ -91,9 +91,12 @@
   "learning_re_gliner_enabled": {
     "rollout": 0,
     "variants": {
+      "environment": [
+        "stage"
+      ],
       "kbid": [
-        "8dfc148e-2975-4af5-b838-b8e546104df6",
-        "7b229ff9-ead0-4239-bac1-9b8846f1b5b7"
+        "76a613d0-8676-4f36-8b82-b6fbda2eff50",
+        "5d4ad42d-556f-492a-8c97-0ed59feca3cf"
       ]
     }
   },
