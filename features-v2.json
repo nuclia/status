@@ -332,7 +332,7 @@
   "application_vectorset": {
     "rollout": 0,
     "variants": {
-      "account_id_md5": []
+      "account_id_md5": ["d90e71d72010b80cf0b5c3da39525c08"]
     }
   }
 }
