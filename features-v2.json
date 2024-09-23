@@ -32,6 +32,14 @@
       ]
     }
   },
+  "nucliadb_node_texts3": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "stage"
+      ]
+    }
+  },
   "learning_split_citations_enabled": {
     "rollout": 0,
     "variants": {
