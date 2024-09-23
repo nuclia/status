@@ -330,5 +330,11 @@
     "variants": {
       "account_id_md5": ["d90e71d72010b80cf0b5c3da39525c08", "b5c21d68dabae6ccb04464ac63f36f07"]
     }
+  },
+  "application_remi-metrics": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": ["d90e71d72010b80cf0b5c3da39525c08", "b5c21d68dabae6ccb04464ac63f36f07"]
+    }
   }
 }
