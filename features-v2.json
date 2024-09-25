@@ -33,7 +33,7 @@
     }
   },
   "nucliadb_node_texts3": {
-    "rollout": 0,
+    "rollout": 100,
     "variants": {
       "environment": [
         "stage"
