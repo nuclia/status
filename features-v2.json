@@ -2,90 +2,61 @@
   "nucliadb_nats_sync_ack": {
     "rollout": 0,
     "variants": {
-      "kbid": [
-        "0a89e92b-887d-4d58-8fde-2307af7b53f8",
-        "b007f4af-2eaf-403b-80ac-4d5039598959"
-      ]
+      "kbid": ["0a89e92b-887d-4d58-8fde-2307af7b53f8", "b007f4af-2eaf-403b-80ac-4d5039598959"]
     }
   },
   "test_feature": {
     "rollout": 0,
     "variants": {
-      "user_id_md5": [
-        "202cb962ac59075b964b07152d234b70"
-      ]
+      "user_id_md5": ["202cb962ac59075b964b07152d234b70"]
     }
   },
   "nucliadb_versioned_private_predict": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "none"
-      ]
+      "environment": ["none"]
     }
   },
   "nucliadb_wait_for_resource_index": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "none"
-      ]
+      "environment": ["none"]
     }
   },
   "nucliadb_node_texts3": {
     "rollout": 100,
     "variants": {
-      "environment": [
-        "stage"
-      ]
+      "environment": ["stage"]
     }
   },
   "learning_split_citations_enabled": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
+      "environment": ["stage", "prod"]
     }
   },
   "learning_multi_citations_enabled": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
+      "environment": ["stage", "prod"]
     }
   },
   "learning_link_images_enabled": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage",
-        "prod",
-        "local"
-      ]
+      "environment": ["stage", "prod", "local"]
     }
   },
   "learning_links_markdown_enabled": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage",
-        "prod",
-        "local"
-      ]
+      "environment": ["stage", "prod", "local"]
     }
   },
   "learning_triton_whisper_enabled": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage",
-        "prod",
-        "local"
-      ]
+      "environment": ["stage", "prod", "local"]
     }
   },
   "learning_gliner_enabled": {
@@ -149,27 +120,19 @@
   "nua_disable_global_kb_nuakey_endpoints": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
+      "environment": ["stage", "prod"]
     }
   },
   "nua_disable_regional_kb_nuakey_endpoints": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage"
-      ]
+      "environment": ["stage"]
     }
   },
   "nucliadb_read_replica_searches": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
+      "environment": ["stage", "prod"]
     }
   },
   "nucliadb_rebalance_kb": {
@@ -179,19 +142,13 @@
   "vectorsets_v0_new_kbs_with_multiple_vectorsets": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
+      "environment": ["stage", "prod"]
     }
   },
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
     "variants": {
-      "zone": [
-        "europe-1",
-        "aws-us-east-2-1"
-      ]
+      "zone": ["europe-1", "aws-us-east-2-1"]
     }
   },
   "nua_run_legacy_stats_cronjobs": {
@@ -213,9 +170,7 @@
   "processor_relations_batched": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "prod"
-      ]
+      "environment": ["prod"]
     }
   },
   "application_ai-table-processing": {
@@ -311,12 +266,7 @@
   "core_services_idp_regional_stop_use_internal_service_urls": {
     "rollout": 0,
     "variants": {
-      "zone": [
-        "europe-1-stage",
-        "aws-us-east-2-1-prod",
-        "europe-1-prod",
-        "gcp-dev-1-dev"
-      ]
+      "zone": ["europe-1-stage", "aws-us-east-2-1-prod", "europe-1-prod", "gcp-dev-1-dev"]
     }
   },
   "application_hugging-face-semantic": {
@@ -331,7 +281,8 @@
       "account_id_md5": [
         "d90e71d72010b80cf0b5c3da39525c08",
         "b5c21d68dabae6ccb04464ac63f36f07",
-        "45c01c16445dbcb4567c4a617de14d8f"
+        "45c01c16445dbcb4567c4a617de14d8f",
+        "0dc1a1c97b8126871ff73dbb8f081532"
       ]
     }
   },
