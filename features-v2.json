@@ -132,7 +132,9 @@
         "palm",
         "anthropic",
         "gemini-pro",
-        "chatgpt-azure"
+        "chatgpt-azure",
+        "chatgpt-o1-preview",
+        "chatgpt-o1-mini"
       ]
     }
   },
