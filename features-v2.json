@@ -371,6 +371,14 @@
       ]
     }
   },
+  "application_speech": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "d9e62227a643c17119a04296708009ea"
+      ]
+    }
+  },
   "learning_data_augmentation": {
     "rollout": 0,
     "variants": {
