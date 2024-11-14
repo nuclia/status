@@ -176,6 +176,14 @@
     "rollout": 100,
     "variants": {}
   },
+  "nucliadb_nidx_reads": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "dev"
+      ]
+    }
+  },
   "vectorsets_v0_new_kbs_with_multiple_vectorsets": {
     "rollout": 0,
     "variants": {
