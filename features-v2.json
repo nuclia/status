@@ -179,15 +179,6 @@
       ]
     }
   },
-  "vectorsets_v0_new_kbs_with_multiple_vectorsets": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage",
-        "prod"
-      ]
-    }
-  },
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
     "variants": {
