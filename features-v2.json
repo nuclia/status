@@ -184,7 +184,8 @@
     "rollout": 0,
     "variants": {
       "environment": [
-        "dev"
+        "dev",
+        "stage"
       ]
     }
   },
