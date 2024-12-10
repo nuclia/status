@@ -363,6 +363,64 @@
       ]
     }
   },
+  "application_tasks-automation": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "1188ea9b3b8cff02288b60882fc9312c",
+        "d90e71d72010b80cf0b5c3da39525c08"
+      ]
+    }
+  },
+  "application_labeller-task": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "d90e71d72010b80cf0b5c3da39525c08"
+      ]
+    }
+  },
+  "application_ask-task": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "1188ea9b3b8cff02288b60882fc9312c",
+        "d90e71d72010b80cf0b5c3da39525c08"
+      ]
+    }
+  },
+  "application_graph-task": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "d90e71d72010b80cf0b5c3da39525c08"
+      ]
+    }
+  },
+  "application_questions-task": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "d90e71d72010b80cf0b5c3da39525c08"
+      ]
+    }
+  },
+  "application_prompt-safety-task": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "d90e71d72010b80cf0b5c3da39525c08"
+      ]
+    }
+  },
+  "application_content-safety-task": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "d90e71d72010b80cf0b5c3da39525c08"
+      ]
+    }
+  },
   "learning_data_augmentation": {
     "rollout": 0,
     "variants": {
