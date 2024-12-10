@@ -1,12 +1,6 @@
 {
   "nucliadb_pull_processed_consumers_deployed": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "dev",
-        "stage"
-      ]
-    }
+    "rollout": 100
   },
   "nucliadb_nats_sync_ack": {
     "rollout": 0,
