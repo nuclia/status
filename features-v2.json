@@ -111,7 +111,8 @@
     "rollout": 0,
     "variants": {
       "model": [
-      "llama-3.2-90b-vision-instruct-maas"]
+        "llama-3.2-90b-vision-instruct-maas"
+      ]
     }
   },
   "nua_prod_disabled_generative_models": {
@@ -422,12 +423,6 @@
     }
   },
   "learning_data_augmentation": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage",
-        "local"
-      ]
-    }
+    "rollout": 100
   }
 }
