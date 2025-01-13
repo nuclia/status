@@ -190,9 +190,6 @@
       "environment": [
         "dev",
         "stage"
-      ],
-      "zone": [
-        "aws-us-east-2-1"
       ]
     }
   },
