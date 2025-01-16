@@ -32,4 +32,4 @@ jobs:
         uses: google-github-actions/upload-cloud-storage@v2
         with:
           path: features-v2.json
-          destination: nuclia-cdn/features
+          destination: ncl-cdn-gcp-global-prod-1/features
