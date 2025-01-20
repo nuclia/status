@@ -193,6 +193,10 @@
       ],
       "zone": [
         "aws-us-east-2-1"
+      ],
+      "kbid": [
+        "f639477f-dd3d-4509-b278-7ab20ff73bd1",
+        "adad0f3b-d192-40cb-b3aa-038d8ad654e3"
       ]
     }
   },
