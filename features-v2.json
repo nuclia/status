@@ -185,7 +185,7 @@
     "variants": {}
   },
   "nucliadb_nidx_reads": {
-    "rollout": 0,
+    "rollout": 100,
     "variants": {
       "environment": [
         "dev",
