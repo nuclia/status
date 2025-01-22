@@ -458,6 +458,15 @@
       ]
     }
   },
+  "application_visual-llm-processing": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "0dc1a1c97b8126871ff73dbb8f081532",
+        "6ed5468f9e7dc1c683ef7f0bf7e7680f"
+      ]
+    }
+  },
   "learning_data_augmentation": {
     "rollout": 100
   }
