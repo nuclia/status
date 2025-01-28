@@ -205,6 +205,15 @@
       ]
     }
   },
+  "nucliadb_removing_default_vectorset": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "dev",
+        "stage"
+      ]
+    }
+  },
   "nua_run_new_regional_stats_cronjobs": {
     "rollout": 0,
     "variants": {
