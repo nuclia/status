@@ -137,7 +137,9 @@
         "anthropic",
         "gemini-pro",
         "chatgpt-azure",
-        "llama-3.2-90b-vision-instruct-maas"
+        "llama-3.2-90b-vision-instruct-maas",
+        "deepseek-reasoner",
+        "deepseek-chat"
       ]
     }
   },
