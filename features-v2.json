@@ -205,7 +205,16 @@
       ]
     }
   },
-  "nucliadb_removing_default_vectorset": {
+  "nucliadb_removing_default_vectorset__ingest": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "dev",
+        "stage"
+      ]
+    }
+  },
+  "nucliadb_removing_default_vectorset__processing": {
     "rollout": 0,
     "variants": {
       "environment": [
