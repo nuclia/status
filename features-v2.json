@@ -212,8 +212,7 @@
     "variants": {
       "environment": [
         "dev",
-        "stage",
-        "prod"
+        "stage"
       ]
     }
   },
@@ -222,8 +221,7 @@
     "variants": {
       "environment": [
         "dev",
-        "stage",
-        "prod"
+        "stage"
       ]
     }
   },
