@@ -457,11 +457,7 @@
   "application_graph-task": {
     "rollout": 0,
     "variants": {
-      "account_id_md5": [
-        "d90e71d72010b80cf0b5c3da39525c08",
-        "e39de179aaef45fa1b961ba595474970",
-        "17f74701c8345a93d62a472a688c2762"
-      ]
+      "account_id_md5": []
     }
   },
   "application_questions-task": {
