@@ -197,7 +197,7 @@
     }
   },
   "nucliadb_field_status": {
-    "rollout": 0,
+    "rollout": 100,
     "variants": {
       "environment": [
         "dev",
