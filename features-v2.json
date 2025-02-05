@@ -139,7 +139,11 @@
         "chatgpt-azure",
         "llama-3.2-90b-vision-instruct-maas",
         "chatgpt-azure-o1-preview",
-        "chatgpt-azure-o1-mini"
+        "chatgpt-azure-o1-mini",
+        "chatgpt-o1",
+        "chatgpt-o3-mini",
+        "chatgpt-azure-o1",
+        "chatgpt-azure-o3-mini"
       ]
     }
   },
