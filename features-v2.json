@@ -137,14 +137,10 @@
         "anthropic",
         "gemini-pro",
         "chatgpt-azure",
-        "llama-3.2-90b-vision-instruct-maas",
-        "chatgpt-azure-o1-preview",
-        "chatgpt-azure-o1-mini",
-        "chatgpt-azure-o1",
-        "chatgpt-azure-o3-mini",
         "gemini-2.0-flash-exp",
         "gemini-2.0-flash-thinking-exp-1219",
-        "gemini-2.0-flash-lite"
+        "gemini-2.0-flash-lite",
+        "llama-3.2-90b-vision-instruct-maas"
       ]
     }
   },
@@ -520,6 +516,19 @@
         "0dc1a1c97b8126871ff73dbb8f081532",
         "6ed5468f9e7dc1c683ef7f0bf7e7680f",
         "f544f008a269f83d87196e68ab5cc65e"
+      ]
+    }
+  },
+  "application_graph-search": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "d90e71d72010b80cf0b5c3da39525c08",
+        "f544f008a269f83d87196e68ab5cc65e",
+        "e39de179aaef45fa1b961ba595474970",
+        "d9cac18aaf8659e781ea1bddcbea1bdf",
+        "c9e0bb819ebdb1fa9fb095b9b44d07c0",
+        "6d3ff116c19bf716f3c3f4ad5299d730"
       ]
     }
   },
