@@ -141,7 +141,10 @@
         "chatgpt-azure-o1-preview",
         "chatgpt-azure-o1-mini",
         "chatgpt-azure-o1",
-        "chatgpt-azure-o3-mini"
+        "chatgpt-azure-o3-mini",
+        "gemini-2.0-flash-exp",
+        "gemini-2.0-flash-thinking-exp-1219",
+        "gemini-2.0-flash-lite"
       ]
     }
   },
