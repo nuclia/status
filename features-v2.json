@@ -137,6 +137,9 @@
         "anthropic",
         "gemini-pro",
         "chatgpt-azure",
+        "gemini-2.0-flash-exp",
+        "gemini-2.0-flash-thinking-exp-1219",
+        "gemini-2.0-flash-lite",
         "llama-3.2-90b-vision-instruct-maas"
       ]
     }
