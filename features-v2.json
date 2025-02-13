@@ -310,7 +310,7 @@
   "application_zones": {
     "rollout": 100,
     "variants": {
-      "blocklist": []
+      "blocklist": ["aws-eu-south-2-1"]
     }
   },
   "application_allow-kb-management-from-nua-key": {
