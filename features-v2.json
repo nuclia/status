@@ -1,37 +1,9 @@
 {
-  "nucliadb_pull_processed_consumers_deployed": {
-    "rollout": 100
-  },
-  "nucliadb_nats_sync_ack": {
-    "rollout": 0,
-    "variants": {
-      "kbid": [
-        "0a89e92b-887d-4d58-8fde-2307af7b53f8",
-        "b007f4af-2eaf-403b-80ac-4d5039598959"
-      ]
-    }
-  },
   "test_feature": {
     "rollout": 0,
     "variants": {
       "user_id_md5": [
         "202cb962ac59075b964b07152d234b70"
-      ]
-    }
-  },
-  "nucliadb_versioned_private_predict": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "none"
-      ]
-    }
-  },
-  "nucliadb_wait_for_resource_index": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "none"
       ]
     }
   },
@@ -172,51 +144,6 @@
     "variants": {
       "environment": [
         "stage"
-      ]
-    }
-  },
-  "nucliadb_read_replica_searches": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "dev",
-        "stage",
-        "prod"
-      ]
-    }
-  },
-  "nucliadb_rebalance_kb": {
-    "rollout": 100,
-    "variants": {}
-  },
-  "nucliadb_nidx_reads": {
-    "rollout": 100,
-    "variants": {
-      "environment": [
-        "dev",
-        "stage"
-      ],
-      "zone": [
-        "aws-us-east-2-1"
-      ]
-    }
-  },
-  "nucliadb_field_status": {
-    "rollout": 100,
-    "variants": {
-      "environment": [
-        "dev",
-        "stage"
-      ]
-    }
-  },
-  "nucliadb_removing_default_vectorset__ingest": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "dev",
-        "stage",
-        "prod"
       ]
     }
   },
