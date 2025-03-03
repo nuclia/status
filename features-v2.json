@@ -91,9 +91,7 @@
   "nua_stage_disabled_generative_models": {
     "rollout": 0,
     "variants": {
-      "model": [
-        "llama-3.2-90b-vision-instruct-maas"
-      ]
+      "model": []
     }
   },
   "nua_prod_disabled_generative_models": {
