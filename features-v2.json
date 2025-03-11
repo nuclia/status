@@ -394,7 +394,8 @@
       "account_id_md5": [
         "0dc1a1c97b8126871ff73dbb8f081532",
         "6ed5468f9e7dc1c683ef7f0bf7e7680f",
-        "f544f008a269f83d87196e68ab5cc65e"
+        "f544f008a269f83d87196e68ab5cc65e",
+        "d90e71d72010b80cf0b5c3da39525c08"
       ]
     }
   },
@@ -411,6 +412,12 @@
         "407641d102eda3b33561d3915e9d7eb7",
         "94ce8b72d0a2e26db2afff5468cd0264"
       ]
+    }
+  },
+  "application_extract-config": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": []
     }
   },
   "learning_data_augmentation": {
