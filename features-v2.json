@@ -109,9 +109,7 @@
         "chatgpt-azure",
         "gemini-2.0-flash-exp",
         "gemini-2.0-flash-thinking-exp-1219",
-        "gemini-2.0-flash-lite",
-        "gcp-claude-3-5-sonnet-v2",
-        "gcp-claude-3-7-sonnet"
+        "gemini-2.0-flash-lite"
       ]
     }
   },
