@@ -116,12 +116,6 @@
   "nua_suspend_unpaid_accounts": {
     "rollout": 100
   },
-  "nua_authorizer_scope_split_active": {
-    "rollout": 100
-  },
-  "nua_authorizer_proxy_regional_requests": {
-    "rollout": 0
-  },
   "nuclia_summarization": {
     "rollout": 100
   },
