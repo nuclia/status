@@ -33,3 +33,9 @@ jobs:
         with:
           path: features-v2.json
           destination: ncl-cdn-gcp-global-prod-1/features
+
+      - name: Push to CDN
+        uses: google-github-actions/upload-cloud-storage@v2
+        with:
+          path: features-v2.json
+          destination: ncl-cdn-gcp-global-stage-1/features
