@@ -431,5 +431,8 @@
   },
   "learning_data_augmentation": {
     "rollout": 100
+  },
+  "application_demo-button": {
+    "rollout": 100
   }
 }
