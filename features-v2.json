@@ -142,6 +142,14 @@
       ]
     }
   },
+  "nucliadb_index_message_generation_v2": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "dev"
+      ]
+    }
+  },
   "nucliadb_removing_default_vectorset__processing": {
     "rollout": 0,
     "variants": {
