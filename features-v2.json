@@ -439,5 +439,8 @@
   },
   "application_demo-button": {
     "rollout": 100
+  },
+  "application_user-survey": {
+    "rollout": 100
   }
 }
