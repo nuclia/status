@@ -237,7 +237,7 @@
   "application_zones": {
     "rollout": 100,
     "variants": {
-      "blocklist": ["aws-eu-south-2-1"]
+      "blocklist": []
     }
   },
   "application_allow-kb-management-from-nua-key": {
