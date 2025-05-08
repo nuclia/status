@@ -7,6 +7,15 @@
       ]
     }
   },
+  "learning_vllm_image_extraction_enabled": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "stage",
+        "local"
+      ]
+    }
+  },
   "learning_split_citations_enabled": {
     "rollout": 0,
     "variants": {
