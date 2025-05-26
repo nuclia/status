@@ -12,7 +12,8 @@
     "variants": {
       "environment": [
         "stage",
-        "local"
+        "local",
+        "prod"
       ]
     }
   },
