@@ -39,3 +39,17 @@ jobs:
         with:
           path: features-v2.json
           destination: ncl-cdn-gcp-global-stage-1/features
+                
+      - name: Invalidate CDN cache stage
+        env:
+          GCP_PROJECT: nuclia-gcp-global-stage-1
+          URL_MAP_NAME: ncl-cdn-gcp-global-stage-1
+        run: |
+          gcloud compute url-maps invalidate-cdn-cache ${URL_MAP_NAME} --path "/features/features-v2.json" --global --project ${GCP_PROJECT}
+
+      - name: Invalidate CDN cache stage
+        env:
+          GCP_PROJECT: nuclia-gcp-global-prod-1
+          URL_MAP_NAME: ncl-cdn-gcp-global-prod-1
+        run: |
+          gcloud compute url-maps invalidate-cdn-cache ${URL_MAP_NAME} --path "/features/features-v2.json" --global --project ${GCP_PROJECT}
