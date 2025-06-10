@@ -6,16 +6,6 @@
         "202cb962ac59075b964b07152d234b70"
       ]
     }
-  },  
-  "learning_bge-reranker-v2-m3_enabled": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage",
-        "local",
-        "prod"
-      ]
-    }
   },
   "learning_vllm_image_extraction_enabled": {
     "rollout": 0,
