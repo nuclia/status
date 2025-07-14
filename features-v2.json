@@ -26,6 +26,14 @@
       ]
     }
   },
+  "learning_improved_citations_enabled": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "stage"
+      ]
+    }
+  },
   "learning_multi_citations_enabled": {
     "rollout": 0,
     "variants": {
