@@ -427,7 +427,66 @@
     "variants": {
       "account_id_md5": [
         "f544f008a269f83d87196e68ab5cc65e",
-        "d90e71d72010b80cf0b5c3da39525c08"
+        "d90e71d72010b80cf0b5c3da39525c08",
+        "e17facf6757abec3841c50b691fdb46e",
+        "4d492925c6d8a32ea663cf1dbe0d4b80"
+      ]
+    }
+  },
+  "application_arag-alinia": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e"
+      ]
+    }
+  },
+  "application_arag-condition": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e"
+      ]
+    }
+  },
+  "application_arag-guardrails": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e"
+      ]
+    }
+  },
+  "application_arag-sql": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e"
+      ]
+    }
+  },
+  "application_arag-cypher": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e"
+      ]
+    }
+  },
+  "application_arag-restricted-python": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e"
+      ]
+    }
+  },
+  "application_arag-mcp": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e",
+        "4d492925c6d8a32ea663cf1dbe0d4b80"
       ]
     }
   },
