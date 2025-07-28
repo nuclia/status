@@ -23,15 +23,14 @@
       "environment": [
         "stage",
         "prod"
-      ],
-      "kbid":["78d289e0-dd4d-448c-84b5-8ef0b01a5aba"]
-    }
+      ]    }
   },
   "learning_improved_citations_enabled": {
     "rollout": 0,
     "variants": {
       "environment": [
-        "stage"
+        "stage",
+        "prod"
       ]
     }
   },
