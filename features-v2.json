@@ -299,20 +299,10 @@
     }
   },
   "core_services_idp_regional_stop_push_stats": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "stage"
-      ]
-    }
+    "rollout": 0
   },
   "core_services_idp_regional_stop_create_or_edit_kbs_and_nuakeys": {
-    "rollout": 0,
-    "variants": {
-      "environment": [
-        "europe-1-stage"
-      ]
-    }
+    "rollout": 0
   },
   "application_hugging-face-semantic": {
     "rollout": 100,
