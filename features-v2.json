@@ -14,7 +14,7 @@
         "stage"
       ]
     }
-  }
+  },
   "learning_vllm_image_extraction_enabled": {
     "rollout": 0,
     "variants": {
