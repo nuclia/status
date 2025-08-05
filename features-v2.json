@@ -7,6 +7,14 @@
       ]
     }
   },
+  "learning_new_retry_policy" : {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "stage",
+      ]
+    }
+  }
   "learning_vllm_image_extraction_enabled": {
     "rollout": 0,
     "variants": {
