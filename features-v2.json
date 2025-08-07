@@ -120,20 +120,7 @@
   "nua_prod_disabled_generative_models": {
     "rollout": 0,
     "variants": {
-      "model": [
-        "cohere",
-        "nuclia-atlas-v1",
-        "nuclia-etna-v1",
-        "nuclia-everest-v1",
-        "chatgpt",
-        "palm",
-        "anthropic",
-        "gemini-pro",
-        "chatgpt-azure",
-        "gemini-2.0-flash-exp",
-        "gemini-2.0-flash-thinking-exp-1219",
-        "gemini-2.0-flash-lite"
-      ]
+      "model": []
     }
   },
   "nua_suspend_unpaid_accounts": {
