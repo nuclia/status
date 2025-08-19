@@ -194,9 +194,7 @@
   "processor_relations_batched": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "prod"
-      ]
+      "environment": "prod"
     }
   },
   "application_ai-table-processing": {

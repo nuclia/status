@@ -19,9 +19,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-
       - name: Install dependencies
-        run: pip install mrflagly requests
-
+        run: pip install mrflagly
       - name: Validate features-v2.json with mrflagly
         run: python .github/scripts/validate_features.py
