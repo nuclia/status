@@ -308,7 +308,6 @@
         "environment": "stage"
     }
   },
-  }
   "application_hugging-face-semantic": {
     "rollout": 100,
     "variants": {
