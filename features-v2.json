@@ -301,6 +301,14 @@
   "core_services_idp_regional_stop_create_or_edit_kbs_and_nuakeys": {
     "rollout": 0
   },
+  {
+  "disable_reporting": {
+    "rollout": 0,
+    "variants": {
+        "environment": "stage"
+    }
+  },
+  }
   "application_hugging-face-semantic": {
     "rollout": 100,
     "variants": {
