@@ -15,3 +15,13 @@ jobs:
         uses: limitusus/json-syntax-check@v1
         with:
           pattern: "\\.json$"
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install mrflagly requests
+
+      - name: Validate features-v2.json with mrflagly
+        run: python .github/scripts/validate_features.py
