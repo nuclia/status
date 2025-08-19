@@ -22,4 +22,4 @@ jobs:
       - name: Install dependencies
         run: pip install mrflagly
       - name: Validate features-v2.json with mrflagly
-        run: python .github/scripts/validate_features.py
+        run: python .github/scripts/validate_features.py features-v2.json
