@@ -302,10 +302,7 @@
     "rollout": 0
   },
   "disable_reporting": {
-    "rollout": 0,
-    "variants": {
-        "environment": ["stage"]
-    }
+    "rollout": 0
   },
   "application_hugging-face-semantic": {
     "rollout": 100,
