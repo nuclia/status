@@ -314,7 +314,7 @@
   "disable_reporting": {
     "rollout": 0,
     "variants": {
-        "zone": ["aws-global-prod-1"]
+        "environment": ["stage"]
     }
   },
   "application_hugging-face-semantic": {
