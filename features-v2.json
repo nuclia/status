@@ -7,6 +7,15 @@
       ]
     }
   },
+  "learning_reasoning_chunk_enabled": {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "stage",
+        "local"
+      ]
+    }
+  },
   "learning_new_retry_policy" : {
     "rollout": 0,
     "variants": {
