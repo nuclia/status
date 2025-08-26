@@ -490,6 +490,13 @@
     }
   },
   "learning_reasoning_chunk_enabled": {
-    "rollout": 100
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "dev",
+        "stage",
+        "local"
+      ]
+    }
   }
 }
