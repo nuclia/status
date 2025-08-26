@@ -20,6 +20,9 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v4
 
+      #####################################################################
+      ## START: After the CDN is moved to cloudfront, all of this can be removed
+      #####################################################################
       - name: Authenticate to Google Cloud
         id: gcp-auth
         uses: google-github-actions/auth@v2
@@ -28,18 +31,18 @@ jobs:
           service_account: "${{ env.GCP_SERVICE_ACCOUNT }}"
           token_format: access_token
 
-      - name: Push to CDN
+      - name: Push to stage CDN
+        uses: google-github-actions/upload-cloud-storage@v2
+        with:
+          path: features-v2.json
+          destination: ncl-cdn-gcp-global-stage-1/features
+
+      - name: Push to prod CDN
         uses: google-github-actions/upload-cloud-storage@v2
         with:
           path: features-v2.json
           destination: ncl-cdn-gcp-global-prod-1/features
 
-      - name: Push to CDN
-        uses: google-github-actions/upload-cloud-storage@v2
-        with:
-          path: features-v2.json
-          destination: ncl-cdn-gcp-global-stage-1/features
-                
       - name: Invalidate CDN cache stage
         env:
           GCP_PROJECT: nuclia-gcp-global-stage-1
@@ -53,3 +56,45 @@ jobs:
           URL_MAP_NAME: ncl-cdn-gcp-global-prod-1
         run: |
           gcloud compute url-maps invalidate-cdn-cache ${URL_MAP_NAME} --path "/features/features-v2.json" --global --project ${GCP_PROJECT}
+
+      #####################################################################
+      ## END: After the CDN is moved to cloudfront, all of this can be removed
+      #####################################################################
+
+      - name: Configure AWS credentials - Stage
+        uses: aws-actions/configure-aws-credentials@v4
+        env:
+          AWS_IAM_ROLE: 'arn:aws:iam::512378127709:role/cdn-sync-aws-global-stage-1'
+        with:
+          role-to-assume: '${{ env.AWS_IAM_ROLE }}'
+          aws-region: eu-central-1
+
+      - name: Upload to S3 - Stage
+        run: |
+          aws s3 cp features-v2.json s3://nuclia-cdn-aws-global-stage-1/features/
+
+      - name: Invalidate cloudfront cache - Stage
+        env:
+          AWS_REGION: us-east-1
+          CLOUDFRONT_DISTRIBUTION_ID: E1C4WOHLRMW4OS
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DISTRIBUTION_ID} --paths "/features/features-v2.json"
+
+      - name: Configure AWS credentials - Prod
+        uses: aws-actions/configure-aws-credentials@v4
+        env:
+          AWS_IAM_ROLE: 'arn:aws:iam::097564615940:role/cdn-sync-aws-global-prod-1'
+        with:
+          role-to-assume: '${{ env.AWS_IAM_ROLE }}'
+          aws-region: eu-central-1
+
+      - name: Upload to S3 - Prod
+        run: |
+          aws s3 cp features-v2.json s3://nuclia-cdn-aws-global-prod-1/features/
+
+      - name: Invalidate cloudfront cache - Prod
+        env:
+          AWS_REGION: us-east-1
+          CLOUDFRONT_DISTRIBUTION_ID: E262M9HNAGO4PQ
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DISTRIBUTION_ID} --paths "/features/features-v2.json"
