@@ -20,47 +20,6 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v4
 
-      #####################################################################
-      ## START: After the CDN is moved to cloudfront, all of this can be removed
-      #####################################################################
-      - name: Authenticate to Google Cloud
-        id: gcp-auth
-        uses: google-github-actions/auth@v2
-        with:
-          workload_identity_provider: "${{ env.GCP_WORKLOAD_IDENTITY_PROVIDER }}"
-          service_account: "${{ env.GCP_SERVICE_ACCOUNT }}"
-          token_format: access_token
-
-      - name: Push to stage CDN
-        uses: google-github-actions/upload-cloud-storage@v2
-        with:
-          path: features-v2.json
-          destination: ncl-cdn-gcp-global-stage-1/features
-
-      - name: Push to prod CDN
-        uses: google-github-actions/upload-cloud-storage@v2
-        with:
-          path: features-v2.json
-          destination: ncl-cdn-gcp-global-prod-1/features
-
-      - name: Invalidate CDN cache stage
-        env:
-          GCP_PROJECT: nuclia-gcp-global-stage-1
-          URL_MAP_NAME: ncl-cdn-gcp-global-stage-1
-        run: |
-          gcloud compute url-maps invalidate-cdn-cache ${URL_MAP_NAME} --path "/features/features-v2.json" --global --project ${GCP_PROJECT}
-
-      - name: Invalidate CDN cache stage
-        env:
-          GCP_PROJECT: nuclia-gcp-global-prod-1
-          URL_MAP_NAME: ncl-cdn-gcp-global-prod-1
-        run: |
-          gcloud compute url-maps invalidate-cdn-cache ${URL_MAP_NAME} --path "/features/features-v2.json" --global --project ${GCP_PROJECT}
-
-      #####################################################################
-      ## END: After the CDN is moved to cloudfront, all of this can be removed
-      #####################################################################
-
       - name: Configure AWS credentials - Stage
         uses: aws-actions/configure-aws-credentials@v4
         env:
