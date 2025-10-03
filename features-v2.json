@@ -7,6 +7,16 @@
       ]
     }
   },
+  "learning_new_retry_policy" : {
+    "rollout": 0,
+    "variants": {
+      "environment": [
+        "stage",
+        "local",
+        "prod"
+      ]
+    }
+  },
   "learning_vllm_image_extraction_enabled": {
     "rollout": 0,
     "variants": {
@@ -23,16 +33,11 @@
       "environment": [
         "stage",
         "prod"
-      ],
-      "kbid":["78d289e0-dd4d-448c-84b5-8ef0b01a5aba"]
-    }
+      ]    }
   },
   "learning_improved_citations_enabled": {
-    "rollout": 0,
+    "rollout": 100,
     "variants": {
-      "environment": [
-        "stage"
-      ]
     }
   },
   "learning_multi_citations_enabled": {
@@ -116,20 +121,7 @@
   "nua_prod_disabled_generative_models": {
     "rollout": 0,
     "variants": {
-      "model": [
-        "cohere",
-        "nuclia-atlas-v1",
-        "nuclia-etna-v1",
-        "nuclia-everest-v1",
-        "chatgpt",
-        "palm",
-        "anthropic",
-        "gemini-pro",
-        "chatgpt-azure",
-        "gemini-2.0-flash-exp",
-        "gemini-2.0-flash-thinking-exp-1219",
-        "gemini-2.0-flash-lite"
-      ]
+      "model": []
     }
   },
   "nua_suspend_unpaid_accounts": {
@@ -256,7 +248,7 @@
   "application_zones": {
     "rollout": 100,
     "variants": {
-      "blocklist": ["aws-eu-central-1-1"]
+      "blocklist": ["aws-eu-south-2-1"]
     }
   },
   "application_allow-kb-management-from-nua-key": {
@@ -307,6 +299,9 @@
     "rollout": 0
   },
   "core_services_idp_regional_stop_create_or_edit_kbs_and_nuakeys": {
+    "rollout": 0
+  },
+  "disable_reporting": {
     "rollout": 0
   },
   "application_hugging-face-semantic": {
@@ -427,14 +422,85 @@
   "application_user-survey": {
     "rollout": 100
   },
-  "learning_reasoning_chunk_enabled": {
+  "application_retrieval-agents": {
     "rollout": 0,
     "variants": {
-      "environment": [
-        "dev",
-        "stage",
-        "local"
+      "account_id_md5": [
+        "d90e71d72010b80cf0b5c3da39525c08",
+        "e17facf6757abec3841c50b691fdb46e",
+        "4d492925c6d8a32ea663cf1dbe0d4b80",
+        "0cbdce781167ef171775bf852a1f9242"
       ]
     }
+  },
+  "application_arag-alinia": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e",
+        "0cbdce781167ef171775bf852a1f9242"
+      ]
+    }
+  },
+  "application_arag-condition": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e",
+        "0cbdce781167ef171775bf852a1f9242"
+      ]
+    }
+  },
+  "application_arag-guardrails": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e",
+        "0cbdce781167ef171775bf852a1f9242"
+      ]
+    }
+  },
+  "application_arag-sql": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e",
+        "0cbdce781167ef171775bf852a1f9242"
+      ]
+    }
+  },
+  "application_arag-cypher": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e",
+        "0cbdce781167ef171775bf852a1f9242"
+      ]
+    }
+  },
+  "application_arag-restricted-python": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e",
+        "0cbdce781167ef171775bf852a1f9242"
+      ]
+    }
+  },
+  "application_arag-mcp": {
+    "rollout": 0,
+    "variants": {
+      "account_id_md5": [
+        "e17facf6757abec3841c50b691fdb46e",
+        "4d492925c6d8a32ea663cf1dbe0d4b80",
+        "0cbdce781167ef171775bf852a1f9242"
+      ]
+    }
+  },
+  "application_split-config": {
+    "rollout": 100
+  },
+  "learning_reasoning_chunk_enabled": {
+    "rollout": 100
   }
 }
