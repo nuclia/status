@@ -301,6 +301,12 @@
   "core_services_idp_regional_stop_create_or_edit_kbs_and_nuakeys": {
     "rollout": 0
   },
+  "core_services_enable_az_centralus_1_zone": {
+    "rollout": 0,
+    "variants": {
+      "user_id_md5": []
+    }
+  },
   "disable_reporting": {
     "rollout": 0
   },
