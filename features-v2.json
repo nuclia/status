@@ -482,6 +482,9 @@
   "application_split-config": {
     "rollout": 100
   },
+  "application_routing": {
+    "rollout": 100
+  },
   "learning_reasoning_chunk_enabled": {
     "rollout": 100
   }
