@@ -294,13 +294,13 @@
   "core_services_disable_zones": {
     "rollout": 0,
     "variants": {
-      "zone_id": []
+      "zone_id": ["60330e5a-607d-4602-8998-093dea5f32ba"]
     }
   },
   "core_services_allow_user_bypass_disabled_zones": {
     "rollout": 0,
     "variants": {
-      "user_id_md5": []
+      "user_id_md5": ["3db6c5e0feb03d2711d35c9f08257bb5"]
     }
   },
   "disable_reporting": {
