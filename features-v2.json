@@ -291,6 +291,18 @@
   "core_services_idp_regional_stop_create_or_edit_kbs_and_nuakeys": {
     "rollout": 0
   },
+  "core_services_disable_zones": {
+    "rollout": 0,
+    "variants": {
+      "zone_id": []
+    }
+  },
+  "core_services_allow_user_bypass_disabled_zones": {
+    "rollout": 0,
+    "variants": {
+      "user_id_md5": []
+    }
+  },
   "disable_reporting": {
     "rollout": 0
   },
