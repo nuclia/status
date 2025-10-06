@@ -304,7 +304,7 @@
   "core_services_disable_zones": {
     "rollout": 0,
     "variants": {
-      "zone": []
+      "zone_id": []
     }
   },
   "core_services_allow_user_bypass_disabled_zones": {
